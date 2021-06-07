@@ -1,0 +1,1274 @@
+	Kingdom	Phylum	Class	Order	Family	Genus	Species	Subspecies	Name
+MGS.hg0001	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides vulgatus	unclassified	Bacteroides vulgatus
+MGS.hg0002	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides uniformis	unclassified	Bacteroides uniformis
+MGS.hg0003	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	[Eubacterium] rectale	unclassified	[Eubacterium] rectale
+MGS.hg0004	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Blautia wexlerae	unclassified	Blautia wexlerae
+MGS.hg0005	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Fusicatenibacter saccharivorans	unclassified	Fusicatenibacter saccharivorans
+MGS.hg0006	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides ovatus	unclassified	Bacteroides ovatus
+MGS.hg0007	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides distasonis	unclassified	Parabacteroides distasonis
+MGS.hg0008	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes putredinis	unclassified	Alistipes putredinis
+MGS.hg0009	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0010	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus	unclassified	Anaerostipes hadrus
+MGS.hg0011	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia faecis	unclassified	Roseburia faecis
+MGS.hg0012	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0013	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus bromii	unclassified	Ruminococcus bromii
+MGS.hg0014	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AF34-10BH	unclassified	Clostridium sp. AF34-10BH
+MGS.hg0015	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0016	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides merdae	unclassified	Parabacteroides merdae
+MGS.hg0017	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Subdoligranulum	Subdoligranulum sp. APC924/74	unclassified	Subdoligranulum sp. APC924/74
+MGS.hg0018	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0019	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides dorei	unclassified	Bacteroides dorei
+MGS.hg0020	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella aerofaciens	unclassified	Collinsella aerofaciens
+MGS.hg0021	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium longum	Bifidobacterium longum subsp. longum	Bifidobacterium longum subsp. longum
+MGS.hg0022	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp. AF14-19	unclassified	Alistipes sp. AF14-19
+MGS.hg0023	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides xylanisolvens	unclassified	Bacteroides xylanisolvens
+MGS.hg0024	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides caccae	unclassified	Bacteroides caccae
+MGS.hg0025	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus bicirculans	unclassified	Ruminococcus bicirculans
+MGS.hg0026	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea longicatena	unclassified	Dorea longicatena
+MGS.hg0027	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	Barnesiella intestinihominis	unclassified	Barnesiella intestinihominis
+MGS.hg0028	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Oscillibacter	Ruminococcaceae bacterium TF06-43	unclassified	Ruminococcaceae bacterium TF06-43
+MGS.hg0029	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	[Eubacterium] hallii	unclassified	[Eubacterium] hallii
+MGS.hg0030	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0031	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Blautia massiliensis	unclassified	Blautia massiliensis
+MGS.hg0032	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes finegoldii	unclassified	Alistipes finegoldii
+MGS.hg0033	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Gemmiger	Gemmiger formicilis	unclassified	Gemmiger formicilis
+MGS.hg0034	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia inulinivorans	unclassified	Roseburia inulinivorans
+MGS.hg0035	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Odoribacter	Odoribacter splanchnicus	unclassified	Odoribacter splanchnicus
+MGS.hg0036	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides thetaiotaomicron	unclassified	Bacteroides thetaiotaomicron
+MGS.hg0037	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia intestinalis	unclassified	Roseburia intestinalis
+MGS.hg0038	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium adolescentis	unclassified	Bifidobacterium adolescentis
+MGS.hg0039	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus comes	unclassified	Coprococcus comes
+MGS.hg0040	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Eubacterium	Firmicutes bacterium AF36-3BH	unclassified	Firmicutes bacterium AF36-3BH
+MGS.hg0041	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	unclassified	unclassified	Blautia sp.
+MGS.hg0042	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp. AM42-11	unclassified	Ruminococcus sp. AM42-11
+MGS.hg0043	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Clostridiales bacterium KLE1615	unclassified	Clostridiales bacterium KLE1615
+MGS.hg0044	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospira	Lachnospira pectinoschiza	unclassified	Lachnospira pectinoschiza
+MGS.hg0045	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	unclassified	unclassified	Faecalibacterium sp.
+MGS.hg0046	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AF37-5	unclassified	Clostridium sp. AF37-5
+MGS.hg0047	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	unclassified	unclassified	unclassified	Oscillospiraceae sp.
+MGS.hg0048	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	unclassified	Akkermansia muciniphila
+MGS.hg0049	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0050	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	unclassified	Escherichia coli
+MGS.hg0051	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes obesi	unclassified	Alistipes obesi
+MGS.hg0052	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides massiliensis	unclassified	Bacteroides massiliensis
+MGS.hg0053	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0054	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella copri	unclassified	Prevotella copri
+MGS.hg0055	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes finegoldii	unclassified	Alistipes finegoldii
+MGS.hg0056	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis	unclassified	Bacteroides fragilis
+MGS.hg0057	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0058	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Clostridium	Firmicutes bacterium AF36-19BH	unclassified	Firmicutes bacterium AF36-19BH
+MGS.hg0059	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cellulosilyticus	unclassified	Bacteroides cellulosilyticus
+MGS.hg0060	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0061	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Coprobacillus	bacterium LF-3	unclassified	bacterium LF-3
+MGS.hg0062	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Clostridium	Firmicutes bacterium AF22-6AC	unclassified	Firmicutes bacterium AF22-6AC
+MGS.hg0063	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	[Eubacterium] siraeum	unclassified	[Eubacterium] siraeum
+MGS.hg0064	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia sp. SG-772	unclassified	Blautia sp. SG-772
+MGS.hg0065	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia obeum	unclassified	Blautia obeum
+MGS.hg0066	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0067	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia hominis	unclassified	Roseburia hominis
+MGS.hg0068	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus lactaris	unclassified	Ruminococcus lactaris
+MGS.hg0069	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	Oscillibacter	Oscillibacter sp. KLE 1745	unclassified	Oscillibacter sp. KLE 1745
+MGS.hg0070	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0071	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0072	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. TF06-15AC	unclassified	Clostridium sp. TF06-15AC
+MGS.hg0073	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	unclassified	unclassified	Ruminococcus sp.
+MGS.hg0074	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AF23-8	unclassified	Clostridium sp. AF23-8
+MGS.hg0075	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Butyricicoccus	Agathobaculum butyriciproducens	unclassified	Agathobaculum butyriciproducens
+MGS.hg0076	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0077	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella wadsworthensis	unclassified	Sutterella wadsworthensis
+MGS.hg0078	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Lachnospiraceae bacterium OF11-28	unclassified	Lachnospiraceae bacterium OF11-28
+MGS.hg0079	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	[Ruminococcus] torques	unclassified	[Ruminococcus] torques
+MGS.hg0080	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium faecium	unclassified	Phascolarctobacterium faecium
+MGS.hg0081	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus eutactus	unclassified	Coprococcus eutactus
+MGS.hg0082	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia sp. AF34-16	unclassified	Roseburia sp. AF34-16
+MGS.hg0083	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0084	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Flavonifractor	Flavonifractor plautii	unclassified	Flavonifractor plautii
+MGS.hg0085	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	unclassified	unclassified	Faecalibacterium sp.
+MGS.hg0086	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister invisus	unclassified	Dialister invisus
+MGS.hg0087	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0088	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	[Ruminococcus] gnavus	unclassified	[Ruminococcus] gnavus
+MGS.hg0089	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	Paraprevotella clara	unclassified	Paraprevotella clara
+MGS.hg0090	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AM49-4BH	unclassified	Clostridium sp. AM49-4BH
+MGS.hg0091	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0092	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0093	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Bilophila	Bilophila wadsworthia	unclassified	Bilophila wadsworthia
+MGS.hg0094	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0095	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0096	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0097	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium ventriosum	unclassified	Eubacterium ventriosum
+MGS.hg0098	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus catus	unclassified	Coprococcus catus
+MGS.hg0099	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea longicatena	unclassified	Dorea longicatena
+MGS.hg0100	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium bifidum	unclassified	Bifidobacterium bifidum
+MGS.hg0101	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium pseudocatenulatum	unclassified	Bifidobacterium pseudocatenulatum
+MGS.hg0102	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0103	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0104	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AM32-2	unclassified	Clostridium sp. AM32-2
+MGS.hg0105	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0106	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	unclassified	unclassified	Faecalibacterium sp.
+MGS.hg0107	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Parasutterella	Parasutterella excrementihominis	unclassified	Parasutterella excrementihominis
+MGS.hg0108	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0109	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides eggerthii	unclassified	Bacteroides eggerthii
+MGS.hg0110	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0111	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0112	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	unclassified	unclassified	Clostridium sp.
+MGS.hg0113	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerotignum	Firmicutes bacterium AF19-2LB	unclassified	Firmicutes bacterium AF19-2LB
+MGS.hg0114	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0115	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0116	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus	unclassified	Anaerostipes hadrus
+MGS.hg0117	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter smithii	unclassified	Methanobrevibacter smithii
+MGS.hg0118	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0119	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides faecis	unclassified	Bacteroides faecis
+MGS.hg0120	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Flavonifractor	Flavonifractor plautii	unclassified	Flavonifractor plautii
+MGS.hg0121	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0122	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides finegoldii	unclassified	Bacteroides finegoldii
+MGS.hg0123	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0124	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruthenibacterium	Ruthenibacterium lactatiformans	unclassified	Ruthenibacterium lactatiformans
+MGS.hg0125	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella sp. KLE1602	unclassified	Sutterella sp. KLE1602
+MGS.hg0126	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0127	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0128	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0129	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	Haemophilus parainfluenzae	unclassified	Haemophilus parainfluenzae
+MGS.hg0130	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides plebeius	unclassified	Bacteroides plebeius
+MGS.hg0131	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus thermophilus	unclassified	Streptococcus thermophilus
+MGS.hg0132	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0133	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister sp. Marseille-P5638	unclassified	Dialister sp. Marseille-P5638
+MGS.hg0134	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0135	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0136	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes ihumii	unclassified	Alistipes ihumii
+MGS.hg0137	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. OF03-18AA	unclassified	Clostridium sp. OF03-18AA
+MGS.hg0138	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	[Eubacterium] hallii	unclassified	[Eubacterium] hallii
+MGS.hg0139	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus callidus	unclassified	Ruminococcus callidus
+MGS.hg0140	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	unclassified	Veillonella parvula
+MGS.hg0141	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	Asaccharobacter	Asaccharobacter celatus	unclassified	Asaccharobacter celatus
+MGS.hg0142	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium ramulus	unclassified	Eubacterium ramulus
+MGS.hg0143	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus salivarius	unclassified	Streptococcus salivarius
+MGS.hg0144	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0145	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0146	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium succinatutens	unclassified	Phascolarctobacterium succinatutens
+MGS.hg0147	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0148	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Butyricicoccus	Butyricicoccus sp. AM42-5AC	unclassified	Butyricicoccus sp. AM42-5AC
+MGS.hg0149	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg0150	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0151	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Lachnospiraceae bacterium TF01-11	unclassified	Lachnospiraceae bacterium TF01-11
+MGS.hg0152	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides salyersiae	unclassified	Bacteroides salyersiae
+MGS.hg0153	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0154	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella copri	unclassified	Prevotella copri
+MGS.hg0155	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	unclassified	unclassified	Blautia sp.
+MGS.hg0156	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0157	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Lachnoclostridium	Clostridiaceae bacterium OM08-6BH	unclassified	Clostridiaceae bacterium OM08-6BH
+MGS.hg0158	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0159	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0160	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0161	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	unclassified	unclassified	Blautia sp.
+MGS.hg0162	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0163	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0164	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0165	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Butyrivibrio	Butyrivibrio crossotus	unclassified	Butyrivibrio crossotus
+MGS.hg0166	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0167	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0168	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Flavonifractor	Ruminococcaceae bacterium KLE1738	unclassified	Ruminococcaceae bacterium KLE1738
+MGS.hg0169	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides intestinalis	unclassified	Bacteroides intestinalis
+MGS.hg0170	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0171	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Catenibacterium	unclassified	unclassified	Catenibacterium sp.
+MGS.hg0172	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0173	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0174	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0175	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0176	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes indistinctus	unclassified	Alistipes indistinctus
+MGS.hg0177	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0178	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0179	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0180	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0181	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes onderdonkii	unclassified	Alistipes onderdonkii
+MGS.hg0182	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	unclassified	unclassified	Butyricimonas sp.
+MGS.hg0183	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Intestinibacter	Intestinibacter bartlettii	unclassified	Intestinibacter bartlettii
+MGS.hg0184	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0185	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium catenulatum	unclassified	Bifidobacterium catenulatum
+MGS.hg0186	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas virosa	unclassified	Butyricimonas virosa
+MGS.hg0187	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0188	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0189	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0190	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0191	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0192	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelatoclostridium	Erysipelatoclostridium ramosum	unclassified	Erysipelatoclostridium ramosum
+MGS.hg0193	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0194	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Lachnoclostridium sp. SNUG30370	unclassified	Lachnoclostridium sp. SNUG30370
+MGS.hg0195	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Clostridium	Lachnospiraceae bacterium AM48-27BH	unclassified	Lachnospiraceae bacterium AM48-27BH
+MGS.hg0196	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides coprocola	unclassified	Bacteroides coprocola
+MGS.hg0197	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides clarus	unclassified	Bacteroides clarus
+MGS.hg0198	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0199	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Tidjanibacter	Tidjanibacter massiliensis	unclassified	Tidjanibacter massiliensis
+MGS.hg0200	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0201	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella dispar	unclassified	Veillonella dispar
+MGS.hg0202	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	Eggerthella	Eggerthella lenta	unclassified	Eggerthella lenta
+MGS.hg0203	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0204	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	Tannerella sp. 6_1_58FAA_CT1	unclassified	Tannerella sp. 6_1_58FAA_CT1
+MGS.hg0205	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0206	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Gemmiger	unclassified	unclassified	Gemmiger sp.
+MGS.hg0207	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaeromassilibacillus	[Clostridium] leptum	unclassified	[Clostridium] leptum
+MGS.hg0208	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Romboutsia	Romboutsia timonensis	unclassified	Romboutsia timonensis
+MGS.hg0209	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium breve	unclassified	Bifidobacterium breve
+MGS.hg0210	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0211	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0212	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Holdemanella	Holdemanella biformis	unclassified	Holdemanella biformis
+MGS.hg0213	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	unclassified	Akkermansia muciniphila
+MGS.hg0214	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Duodenibacillus	Duodenibacillus massiliensis	unclassified	Duodenibacillus massiliensis
+MGS.hg0215	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp. cv1	unclassified	Alistipes sp. cv1
+MGS.hg0216	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg0217	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0218	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0219	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Tyzzerella	Tyzzerella nexilis	unclassified	Tyzzerella nexilis
+MGS.hg0220	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0221	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	unclassified	unclassified	Clostridium sp.
+MGS.hg0222	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides merdae	unclassified	Parabacteroides merdae
+MGS.hg0223	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0224	Bacteria	Firmicutes	Negativicutes	Veillonellales	unclassified	unclassified	unclassified	unclassified	Veillonellales sp.
+MGS.hg0225	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0226	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0227	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0228	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus eutactus	unclassified	Coprococcus eutactus
+MGS.hg0229	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0230	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0231	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0232	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Selenomonadaceae	Megamonas	Megamonas funiformis	unclassified	Megamonas funiformis
+MGS.hg0233	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0234	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0235	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Parasutterella	unclassified	unclassified	Parasutterella sp.
+MGS.hg0236	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0237	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Clostridium	Anaeromassilibacillus sp. Marseille-P3876	unclassified	Anaeromassilibacillus sp. Marseille-P3876
+MGS.hg0238	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0239	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0240	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0241	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0242	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] bolteae	unclassified	[Clostridium] bolteae
+MGS.hg0243	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	unclassified	unclassified	unclassified	unclassified	Acidaminococcales sp.
+MGS.hg0244	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio piger	unclassified	Desulfovibrio piger
+MGS.hg0245	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Firmicutes bacterium OM04-13BH	unclassified	Firmicutes bacterium OM04-13BH
+MGS.hg0246	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia sp. AM59-24XD	unclassified	Roseburia sp. AM59-24XD
+MGS.hg0247	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0248	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0249	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AM33-3	unclassified	Clostridium sp. AM33-3
+MGS.hg0250	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0251	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes senegalensis	unclassified	Alistipes senegalensis
+MGS.hg0252	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0253	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0254	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	Acidaminococcus intestini	unclassified	Acidaminococcus intestini
+MGS.hg0255	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0256	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0257	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0258	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0259	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0260	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0261	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0262	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0263	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. AF22-9	unclassified	Eubacterium sp. AF22-9
+MGS.hg0264	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AF27-2AA	unclassified	Clostridium sp. AF27-2AA
+MGS.hg0265	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0266	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea sp. AF36-15AT	unclassified	Dorea sp. AF36-15AT
+MGS.hg0267	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Pseudoflavonifractor	Clostridiales bacterium CCNA10	unclassified	Clostridiales bacterium CCNA10
+MGS.hg0268	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0269	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0270	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0271	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Oscillibacter	unclassified	unclassified	Oscillibacter sp.
+MGS.hg0272	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	unclassified	unclassified	Blautia sp.
+MGS.hg0273	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	unclassified	unclassified	unclassified	Eggerthellaceae sp.
+MGS.hg0274	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0275	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Clostridium	Lachnospiraceae bacterium OM04-12BH	unclassified	Lachnospiraceae bacterium OM04-12BH
+MGS.hg0276	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0277	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	Faecalibacterium prausnitzii	unclassified	Faecalibacterium prausnitzii
+MGS.hg0278	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0279	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0280	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0281	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0282	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0283	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0284	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Erysipelatoclostridium	[Clostridium] innocuum	unclassified	[Clostridium] innocuum
+MGS.hg0285	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0286	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0287	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp. AF31-8BH	unclassified	Ruminococcus sp. AF31-8BH
+MGS.hg0288	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Odoribacter	Odoribacter sp. AM16-33	unclassified	Odoribacter sp. AM16-33
+MGS.hg0289	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0290	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Sellimonas	Sellimonas intestinalis	unclassified	Sellimonas intestinalis
+MGS.hg0291	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides johnsonii	unclassified	Parabacteroides johnsonii
+MGS.hg0292	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. OM07-9AC	unclassified	Clostridium sp. OM07-9AC
+MGS.hg0293	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0294	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0295	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0296	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0297	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0298	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Monoglobus	Monoglobus pectinilyticus	unclassified	Monoglobus pectinilyticus
+MGS.hg0299	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	unclassified	Escherichia coli
+MGS.hg0300	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0301	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.hg0302	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0303	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0304	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0305	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0306	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides nordii	unclassified	Bacteroides nordii
+MGS.hg0307	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella atypica	unclassified	Veillonella atypica
+MGS.hg0308	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] symbiosum	unclassified	[Clostridium] symbiosum
+MGS.hg0309	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0310	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus ruminis	unclassified	Lactobacillus ruminis
+MGS.hg0311	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella sp. AM18-8-1	unclassified	Sutterella sp. AM18-8-1
+MGS.hg0312	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium angulatum	unclassified	Bifidobacterium angulatum
+MGS.hg0313	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus bromii	unclassified	Ruminococcus bromii
+MGS.hg0314	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	unclassified	unclassified	Ruminococcus sp.
+MGS.hg0315	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0316	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0317	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Intestinimonas	Intestinimonas butyriciproducens	unclassified	Intestinimonas butyriciproducens
+MGS.hg0318	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. AF34-35BH	unclassified	Eubacterium sp. AF34-35BH
+MGS.hg0319	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0320	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0321	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp. AF21-42	unclassified	Ruminococcus sp. AF21-42
+MGS.hg0322	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0323	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides uniformis	unclassified	Bacteroides uniformis
+MGS.hg0324	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.hg0325	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0326	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0327	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0328	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0329	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0330	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Coprobacillus	unclassified	unclassified	Coprobacillus sp.
+MGS.hg0331	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0332	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae	Klebsiella pneumoniae subsp. pneumoniae	Klebsiella pneumoniae subsp. pneumoniae
+MGS.hg0333	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0334	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cellulosilyticus	unclassified	Bacteroides cellulosilyticus
+MGS.hg0335	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	unclassified	unclassified	unclassified	Rikenellaceae sp.
+MGS.hg0336	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides goldsteinii	unclassified	Parabacteroides goldsteinii
+MGS.hg0337	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0338	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0339	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0340	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. AF19-12LB	unclassified	Eubacterium sp. AF19-12LB
+MGS.hg0341	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0342	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0343	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0344	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia sp. KLE1798	unclassified	Akkermansia sp. KLE1798
+MGS.hg0345	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	unclassified	unclassified	unclassified	Oscillospiraceae sp.
+MGS.hg0346	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0347	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0348	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parasanguinis	unclassified	Streptococcus parasanguinis
+MGS.hg0349	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0350	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] symbiosum	unclassified	[Clostridium] symbiosum
+MGS.hg0351	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.hg0352	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0353	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. P4-67	unclassified	Prevotella sp. P4-67
+MGS.hg0354	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified	unclassified	unclassified	unclassified	Burkholderiales sp.
+MGS.hg0355	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0356	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0357	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0358	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0359	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. AF16-48	unclassified	Eubacterium sp. AF16-48
+MGS.hg0360	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0361	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea sp. AF24-7LB	unclassified	Dorea sp. AF24-7LB
+MGS.hg0362	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0363	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus	unclassified	Anaerostipes hadrus
+MGS.hg0364	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0365	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0366	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0367	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0368	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0369	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0370	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp. AF41-9	unclassified	Ruminococcus sp. AF41-9
+MGS.hg0371	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0372	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0373	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] clostridioforme	unclassified	[Clostridium] clostridioforme
+MGS.hg0374	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0375	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	unclassified	unclassified	unclassified	Eggerthellaceae sp.
+MGS.hg0376	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0377	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0378	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0379	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0380	Bacteria	Lentisphaerae	Lentisphaeria	Victivallales	Victivallaceae	Victivallis	Victivallales bacterium CCUG 44730	unclassified	Victivallales bacterium CCUG 44730
+MGS.hg0381	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AM30-24	unclassified	Clostridium sp. AM30-24
+MGS.hg0382	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Eubacterium	[Bacteroides] pectinophilus	unclassified	[Bacteroides] pectinophilus
+MGS.hg0383	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0384	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg0385	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella rogosae	unclassified	Veillonella rogosae
+MGS.hg0386	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. AT4	unclassified	Clostridium sp. AT4
+MGS.hg0387	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0388	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0389	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0390	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0391	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0392	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0393	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	unclassified	unclassified	unclassified	Rikenellaceae sp.
+MGS.hg0394	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Hungatella	Hungatella hathewayi	unclassified	Hungatella hathewayi
+MGS.hg0395	Bacteria	Candidatus Melainabacteria	Clostridia	Clostridiales	Clostridiaceae	Sedimentibacter	Candidatus Melainabacteria bacterium MEL.A1	unclassified	Candidatus Melainabacteria bacterium MEL.A1
+MGS.hg0396	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0397	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides distasonis	unclassified	Parabacteroides distasonis
+MGS.hg0398	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0399	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas sp. Marseille-P4593	unclassified	Butyricimonas sp. Marseille-P4593
+MGS.hg0400	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellamassilia	Prevotellamassilia timonensis	unclassified	Prevotellamassilia timonensis
+MGS.hg0401	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0402	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0403	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	unclassified	unclassified	unclassified	unclassified	Desulfovibrionales sp.
+MGS.hg0404	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0405	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides ovatus	unclassified	Bacteroides ovatus
+MGS.hg0406	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides coprophilus	unclassified	Bacteroides coprophilus
+MGS.hg0407	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0408	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0409	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0410	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0411	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0412	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0413	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0414	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0415	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0416	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0417	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0418	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	unclassified	unclassified	Ruminococcus sp.
+MGS.hg0419	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. 885	unclassified	Prevotella sp. 885
+MGS.hg0420	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	unclassified	unclassified	unclassified	Peptostreptococcaceae sp.
+MGS.hg0421	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0422	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0423	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0424	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0425	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0426	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium animalis	Bifidobacterium animalis subsp. lactis	Bifidobacterium animalis subsp. lactis
+MGS.hg0427	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0428	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0429	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0430	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] aldenense	unclassified	[Clostridium] aldenense
+MGS.hg0431	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0432	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0433	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0434	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0435	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0436	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0437	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.hg0438	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Coprobacillus	Coprobacillus cateniformis	unclassified	Coprobacillus cateniformis
+MGS.hg0439	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis	unclassified	Enterococcus faecalis
+MGS.hg0440	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0441	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0442	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. TM06-47	unclassified	Eubacterium sp. TM06-47
+MGS.hg0443	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella stercorea	unclassified	Prevotella stercorea
+MGS.hg0444	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0445	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	unclassified	unclassified	unclassified	unclassified	Aeromonadales sp.
+MGS.hg0446	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia sp. KLE1798	unclassified	Akkermansia sp. KLE1798
+MGS.hg0447	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0448	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0449	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus sp. OM04-5BH	unclassified	Coprococcus sp. OM04-5BH
+MGS.hg0450	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0451	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	Roseburia sp. AM16-25	unclassified	Roseburia sp. AM16-25
+MGS.hg0452	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0453	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia sp. Marseille-P3087	unclassified	Blautia sp. Marseille-P3087
+MGS.hg0454	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0455	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	unclassified	unclassified	unclassified	Peptostreptococcaceae sp.
+MGS.hg0456	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	unclassified	unclassified	Alistipes sp.
+MGS.hg0457	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Barnesiellaceae	Coprobacter	Coprobacter secundus	unclassified	Coprobacter secundus
+MGS.hg0458	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0459	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0460	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	unclassified	unclassified	Sutterella sp.
+MGS.hg0461	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister succinatiphilus	unclassified	Dialister succinatiphilus
+MGS.hg0462	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0463	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0464	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium longum	Bifidobacterium longum subsp. infantis	Bifidobacterium longum subsp. infantis
+MGS.hg0465	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Eisenbergiella	Eisenbergiella massiliensis	unclassified	Eisenbergiella massiliensis
+MGS.hg0466	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. P4-65	unclassified	Prevotella sp. P4-65
+MGS.hg0467	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0468	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0469	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0470	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0471	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Selenomonadaceae	Mitsuokella	Mitsuokella jalaludinii	unclassified	Mitsuokella jalaludinii
+MGS.hg0472	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides goldsteinii	unclassified	Parabacteroides goldsteinii
+MGS.hg0473	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0474	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0475	Bacteria	Actinobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Actinobacteria sp.
+MGS.hg0476	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus salivarius	unclassified	Streptococcus salivarius
+MGS.hg0477	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0478	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	Betaproteobacteria sp.
+MGS.hg0479	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0480	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0481	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0482	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0483	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg0484	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0485	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0486	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	unclassified	unclassified	unclassified	Rikenellaceae sp.
+MGS.hg0487	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0488	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0489	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0490	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0491	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0492	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0493	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Eisenbergiella	Eisenbergiella tayi	unclassified	Eisenbergiella tayi
+MGS.hg0494	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0495	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus sp. AF46-10NS	unclassified	Ruminococcus sp. AF46-10NS
+MGS.hg0496	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella sp. AM11-39	unclassified	Sutterella sp. AM11-39
+MGS.hg0497	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Odoribacter	Odoribacter laneus	unclassified	Odoribacter laneus
+MGS.hg0498	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0499	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0500	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerotignum	Clostridia bacterium UC5.1-1D10	unclassified	Clostridia bacterium UC5.1-1D10
+MGS.hg0501	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0502	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0503	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0504	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera sp. NM10	unclassified	Megasphaera sp. NM10
+MGS.hg0505	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	unclassified	unclassified	unclassified	Bacteroidaceae sp.
+MGS.hg0506	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0507	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelatoclostridium	[Clostridium] spiroforme	unclassified	[Clostridium] spiroforme
+MGS.hg0508	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	unclassified	unclassified	unclassified	unclassified	Erysipelotrichales sp.
+MGS.hg0509	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0510	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanosphaera	Methanosphaera stadtmanae	unclassified	Methanosphaera stadtmanae
+MGS.hg0511	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0512	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0513	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0514	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0515	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0516	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0517	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0518	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0519	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0520	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0521	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0522	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0523	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium succinatutens	unclassified	Phascolarctobacterium succinatutens
+MGS.hg0524	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Butyricicoccus	unclassified	unclassified	Butyricicoccus sp.
+MGS.hg0525	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0526	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	unclassified	unclassified	Anaerostipes sp.
+MGS.hg0527	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified	unclassified	unclassified	unclassified	Burkholderiales sp.
+MGS.hg0528	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Coprococcus sp. HPP0074	unclassified	Coprococcus sp. HPP0074
+MGS.hg0529	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0530	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0531	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0532	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	Paraprevotella xylaniphila	unclassified	Paraprevotella xylaniphila
+MGS.hg0533	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Pseudoflavonifractor	Ruminococcaceae bacterium D16	unclassified	Ruminococcaceae bacterium D16
+MGS.hg0534	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0535	Bacteria	Lentisphaerae	Lentisphaeria	Victivallales	Victivallaceae	Victivallis	Victivallis vadensis	unclassified	Victivallis vadensis
+MGS.hg0536	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	unclassified	unclassified	unclassified	Bacteroidaceae sp.
+MGS.hg0537	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium dentium	unclassified	Bifidobacterium dentium
+MGS.hg0538	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0539	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0540	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0541	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides plebeius	unclassified	Bacteroides plebeius
+MGS.hg0542	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelatoclostridium	[Clostridium] innocuum	unclassified	[Clostridium] innocuum
+MGS.hg0543	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	unclassified	unclassified	unclassified	Oscillospiraceae sp.
+MGS.hg0544	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0545	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0546	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0547	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0548	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0549	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. 3_1_31	unclassified	Eubacterium sp. 3_1_31
+MGS.hg0550	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0551	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0552	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0553	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0554	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0555	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0556	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0557	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] clostridioforme	unclassified	[Clostridium] clostridioforme
+MGS.hg0558	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	unclassified	unclassified	Olsenella sp.
+MGS.hg0559	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0560	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0561	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] clostridioforme	unclassified	[Clostridium] clostridioforme
+MGS.hg0562	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0563	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Parasutterella	unclassified	unclassified	Parasutterella sp.
+MGS.hg0564	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Neglecta	Neglecta timonensis	unclassified	Neglecta timonensis
+MGS.hg0565	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	Ruminococcus champanellensis	unclassified	Ruminococcus champanellensis
+MGS.hg0566	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0567	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. 109	unclassified	Prevotella sp. 109
+MGS.hg0568	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0569	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0570	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0571	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0572	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0573	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. Marseille-P4119	unclassified	Prevotella sp. Marseille-P4119
+MGS.hg0574	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0575	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0576	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0577	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0578	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0579	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0580	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter smithii	unclassified	Methanobrevibacter smithii
+MGS.hg0581	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Negativibacillus	Negativibacillus massiliensis	unclassified	Negativibacillus massiliensis
+MGS.hg0582	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0583	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0584	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis	unclassified	Bacteroides fragilis
+MGS.hg0585	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0586	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0587	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0588	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0589	Bacteria	Firmicutes	Clostridia	Erysipelotrichales	Erysipelotrichaceae	Eubacterium	Firmicutes bacterium AM41-11	unclassified	Firmicutes bacterium AM41-11
+MGS.hg0590	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0591	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0592	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0593	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0594	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0595	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0596	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	unclassified	unclassified	unclassified	Odoribacteraceae sp.
+MGS.hg0597	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	unclassified	unclassified	Butyricimonas sp.
+MGS.hg0598	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0599	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0600	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0601	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0602	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0603	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0604	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera elsdenii	unclassified	Megasphaera elsdenii
+MGS.hg0605	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0606	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0607	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0608	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	unclassified	unclassified	Blautia sp.
+MGS.hg0609	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	unclassified	unclassified	unclassified	Eubacteriaceae sp.
+MGS.hg0610	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0611	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0612	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0613	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0614	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0615	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0616	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0617	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.hg0618	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0619	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	unclassified	unclassified	unclassified	unclassified	Erysipelotrichales sp.
+MGS.hg0620	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp. An31A	unclassified	Alistipes sp. An31A
+MGS.hg0621	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0622	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0623	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0624	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0625	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0626	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0627	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0628	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0629	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella intestinalis	unclassified	Collinsella intestinalis
+MGS.hg0630	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Allisonella	Allisonella histaminiformans	unclassified	Allisonella histaminiformans
+MGS.hg0631	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0632	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0633	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0634	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	unclassified	unclassified	Ruminococcus sp.
+MGS.hg0635	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0636	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes caccae	unclassified	Anaerostipes caccae
+MGS.hg0637	Bacteria	Firmicutes	Negativicutes	Veillonellales	unclassified	unclassified	unclassified	unclassified	Veillonellales sp.
+MGS.hg0638	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0639	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	unclassified	unclassified	unclassified	Veillonellaceae sp.
+MGS.hg0640	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. AF22-8LB	unclassified	Eubacterium sp. AF22-8LB
+MGS.hg0641	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0642	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0643	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0644	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cellulosilyticus	unclassified	Bacteroides cellulosilyticus
+MGS.hg0645	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0646	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0647	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Selenomonadaceae	Mitsuokella	Mitsuokella multacida	unclassified	Mitsuokella multacida
+MGS.hg0648	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0649	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0650	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0651	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0652	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0653	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0654	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0655	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0656	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0657	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Libanicoccus	unclassified	unclassified	Libanicoccus sp.
+MGS.hg0658	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0659	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0660	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0661	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	unclassified	unclassified	Alistipes sp.
+MGS.hg0662	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0663	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella lascolaii	unclassified	Prevotella lascolaii
+MGS.hg0664	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0665	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	unclassified	unclassified	unclassified	unclassified	Desulfovibrionales sp.
+MGS.hg0666	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	Betaproteobacteria sp.
+MGS.hg0667	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0668	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0669	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified	unclassified	unclassified	unclassified	Burkholderiales sp.
+MGS.hg0670	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0671	Bacteria	Actinobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Actinobacteria sp.
+MGS.hg0672	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	unclassified	unclassified	Clostridium sp.
+MGS.hg0673	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0674	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0675	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0676	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0677	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0678	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0679	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Holdemania	Holdemania filiformis	unclassified	Holdemania filiformis
+MGS.hg0680	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0681	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Pseudoflavonifractor	Pseudoflavonifractor sp. An184	unclassified	Pseudoflavonifractor sp. An184
+MGS.hg0682	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Clostridiales bacterium VE202-26	unclassified	Clostridiales bacterium VE202-26
+MGS.hg0683	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium disporicum	unclassified	Clostridium disporicum
+MGS.hg0684	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella buccae	unclassified	Prevotella buccae
+MGS.hg0685	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0686	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0687	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0688	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0689	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0690	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0691	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0692	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0693	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Hungatella	Hungatella hathewayi	unclassified	Hungatella hathewayi
+MGS.hg0694	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaeromassilibacillus	Anaeromassilibacillus sp. An250	unclassified	Anaeromassilibacillus sp. An250
+MGS.hg0695	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0696	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0697	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0698	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0699	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0700	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0701	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0702	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0703	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0704	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Lachnospiraceae bacterium 5_1_57FAA	unclassified	Lachnospiraceae bacterium 5_1_57FAA
+MGS.hg0705	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0706	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0707	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0708	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0709	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0710	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	unclassified	unclassified	unclassified	Oscillospiraceae sp.
+MGS.hg0711	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Clostridiales bacterium VE202-15	unclassified	Clostridiales bacterium VE202-15
+MGS.hg0712	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera micronuciformis	unclassified	Megasphaera micronuciformis
+MGS.hg0713	Bacteria	Firmicutes	Negativicutes	Veillonellales	unclassified	unclassified	unclassified	unclassified	Veillonellales sp.
+MGS.hg0714	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Flavonifractor	Ruminococcaceae bacterium AM28-23LB	unclassified	Ruminococcaceae bacterium AM28-23LB
+MGS.hg0715	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio fairfieldensis	unclassified	Desulfovibrio fairfieldensis
+MGS.hg0716	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0717	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0718	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0719	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0720	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0721	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	unclassified	unclassified	unclassified	unclassified	Desulfovibrionales sp.
+MGS.hg0722	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0723	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0724	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0725	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	Betaproteobacteria sp.
+MGS.hg0726	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0727	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0728	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0729	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0730	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0731	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0732	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Roseburia sp. OM02-15	unclassified	Roseburia sp. OM02-15
+MGS.hg0733	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio piger	unclassified	Desulfovibrio piger
+MGS.hg0734	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0735	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0736	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	unclassified	unclassified	Coprococcus sp.
+MGS.hg0737	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes timonensis	unclassified	Alistipes timonensis
+MGS.hg0738	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified	unclassified	unclassified	unclassified	Burkholderiales sp.
+MGS.hg0739	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0740	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerostipes	Anaerostipes sp. BG01	unclassified	Anaerostipes sp. BG01
+MGS.hg0741	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia producta	unclassified	Blautia producta
+MGS.hg0742	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0743	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	unclassified	Enterobacter cloacae
+MGS.hg0744	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	unclassified	unclassified	unclassified	Oscillospiraceae sp.
+MGS.hg0745	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0746	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg0747	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0748	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0749	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0750	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Merdimonas	Merdimonas faecis	unclassified	Merdimonas faecis
+MGS.hg0751	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0752	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0753	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0754	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella bouchesdurhonensis	unclassified	Collinsella bouchesdurhonensis
+MGS.hg0755	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0756	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	Oscillibacter	unclassified	unclassified	Oscillibacter sp.
+MGS.hg0757	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter	Oxalobacter formigenes	unclassified	Oxalobacter formigenes
+MGS.hg0758	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0759	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0760	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella oxytoca	unclassified	Klebsiella oxytoca
+MGS.hg0761	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0762	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] lavalense	unclassified	[Clostridium] lavalense
+MGS.hg0763	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0764	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0765	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0766	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0767	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter freundii	unclassified	Citrobacter freundii
+MGS.hg0768	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0769	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	unclassified	unclassified	unclassified	Rikenellaceae sp.
+MGS.hg0770	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0771	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0772	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0773	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0774	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0775	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	unclassified	unclassified	unclassified	Clostridiaceae sp.
+MGS.hg0776	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Faecalibacterium	unclassified	unclassified	Faecalibacterium sp.
+MGS.hg0777	Bacteria	Firmicutes	Clostridia	Clostridiales	Erysipelotrichaceae	Holdemanella	unclassified	unclassified	Holdemanella sp.
+MGS.hg0778	Bacteria	Firmicutes	Clostridia	Clostridiales	Oscillospiraceae	Oscillibacter	unclassified	unclassified	Oscillibacter sp.
+MGS.hg0779	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium neonatale	unclassified	Clostridium neonatale
+MGS.hg0780	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0781	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	unclassified	unclassified	Collinsella sp.
+MGS.hg0782	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. 343_SSPC	unclassified	Streptococcus sp. 343_SSPC
+MGS.hg0783	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0784	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0785	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0786	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0787	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0788	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0789	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0790	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0791	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0792	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0793	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0794	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0795	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0796	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0797	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Senegalimassilia	unclassified	unclassified	Senegalimassilia sp.
+MGS.hg0798	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus vestibularis	unclassified	Streptococcus vestibularis
+MGS.hg0799	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0800	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0801	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0802	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0803	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0804	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0805	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0806	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg0807	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Enorma	Enorma massiliensis	unclassified	Enorma massiliensis
+MGS.hg0808	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0809	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0810	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0811	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0812	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0813	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0814	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Massiliomicrobiota	Massiliomicrobiota sp. An80	unclassified	Massiliomicrobiota sp. An80
+MGS.hg0815	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0816	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0817	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0818	Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	unclassified	unclassified	Rothia sp.
+MGS.hg0819	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0820	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0821	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg0822	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0823	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Anaerotignum	Anaerotignum lactatifermentans	unclassified	Anaerotignum lactatifermentans
+MGS.hg0824	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0825	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0826	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0827	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0828	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides congonensis	unclassified	Bacteroides congonensis
+MGS.hg0829	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea sp. Marseille-P4003	unclassified	Dorea sp. Marseille-P4003
+MGS.hg0830	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Dakarella	Dakarella massiliensis	unclassified	Dakarella massiliensis
+MGS.hg0831	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0832	Bacteria	Firmicutes	Negativicutes	Veillonellales	unclassified	unclassified	unclassified	unclassified	Veillonellales sp.
+MGS.hg0833	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Eisenbergiella	Eisenbergiella tayi	unclassified	Eisenbergiella tayi
+MGS.hg0834	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	bacterium OL-1	unclassified	bacterium OL-1
+MGS.hg0835	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0836	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0837	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaerotruncus	Anaerotruncus colihominis	unclassified	Anaerotruncus colihominis
+MGS.hg0838	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0839	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0840	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0841	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0842	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0843	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0844	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0845	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0846	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0847	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0848	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0849	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0850	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0851	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0852	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0853	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0854	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0855	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0856	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Bilophila	unclassified	unclassified	Bilophila sp.
+MGS.hg0857	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0858	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Turicibacter	Turicibacter sanguinis	unclassified	Turicibacter sanguinis
+MGS.hg0859	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaeromassilibacillus	Ruminococcaceae bacterium	unclassified	Ruminococcaceae bacterium
+MGS.hg0860	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0861	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0862	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Pseudoflavonifractor	unclassified	unclassified	Pseudoflavonifractor sp.
+MGS.hg0863	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0864	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0865	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0866	Bacteria	Lentisphaerae	Lentisphaeria	Victivallales	unclassified	unclassified	unclassified	unclassified	Victivallales sp.
+MGS.hg0867	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0868	Eukaryota	Stramenopiles	Blastocystae	Blastocystida	Blastocystidae	Blastocystis	Blastocystis sp. subtype 4	unclassified	Blastocystis sp. subtype 4
+MGS.hg0869	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0870	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0871	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Anaerotruncus	Anaerotruncus sp. AT3	unclassified	Anaerotruncus sp. AT3
+MGS.hg0872	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0873	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium perfringens	unclassified	Clostridium perfringens
+MGS.hg0874	Archaea	Euryarchaeota	Thermoplasmata	unclassified	unclassified	unclassified	unclassified	unclassified	Thermoplasmata sp.
+MGS.hg0875	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0876	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0877	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0878	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	unclassified	unclassified	Eubacterium sp.
+MGS.hg0879	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Mordavella	unclassified	unclassified	Mordavella sp.
+MGS.hg0880	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0881	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0882	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0883	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0884	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg0885	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0886	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0887	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0888	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0889	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium paraputrificum	unclassified	Clostridium paraputrificum
+MGS.hg0890	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter roggenkampii	unclassified	Enterobacter roggenkampii
+MGS.hg0891	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0892	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg0893	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Phocea	Phocea massiliensis	unclassified	Phocea massiliensis
+MGS.hg0894	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0895	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0896	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0897	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg0898	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg0899	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0900	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0901	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0902	Archaea	Euryarchaeota	Thermoplasmata	Methanomassiliicoccales	Methanomassiliicoccaceae	Methanomassiliicoccus	Candidatus Methanomassiliicoccus intestinalis	unclassified	Candidatus Methanomassiliicoccus intestinalis
+MGS.hg0903	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0904	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0905	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0906	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0907	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella oxytoca	unclassified	Klebsiella oxytoca
+MGS.hg0908	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0909	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0910	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0911	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0912	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0913	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Coprobacillus	unclassified	unclassified	Coprobacillus sp.
+MGS.hg0914	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0915	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0916	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0917	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0918	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0919	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0920	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0921	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0922	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus	Lachnospiraceae bacterium OF09-6	unclassified	Lachnospiraceae bacterium OF09-6
+MGS.hg0923	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0924	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Clostridioides	Clostridioides difficile	unclassified	Clostridioides difficile
+MGS.hg0925	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. Marseille-P3684	unclassified	Bacteroides sp. Marseille-P3684
+MGS.hg0926	Bacteria	Lentisphaerae	Lentisphaeria	Victivallales	unclassified	unclassified	unclassified	unclassified	Victivallales sp.
+MGS.hg0927	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0928	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0929	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0930	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0931	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0932	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0933	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0934	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	unclassified	unclassified	unclassified	Bacteroidaceae sp.
+MGS.hg0935	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0936	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus acidophilus	unclassified	Lactobacillus acidophilus
+MGS.hg0937	Bacteria	Elusimicrobia	Elusimicrobia	Elusimicrobiales	Elusimicrobiaceae	unclassified	unclassified	unclassified	Elusimicrobiaceae sp.
+MGS.hg0938	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0939	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0940	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0941	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0942	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0943	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus plantarum	Lactobacillus plantarum subsp. plantarum	Lactobacillus plantarum subsp. plantarum
+MGS.hg0944	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0945	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0946	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0947	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0948	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	unclassified	Enterobacter cloacae
+MGS.hg0949	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0950	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0951	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0952	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg0953	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg0954	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0955	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0956	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	unclassified	unclassified	unclassified	unclassified	Erysipelotrichales sp.
+MGS.hg0957	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	unclassified	unclassified	Alistipes sp.
+MGS.hg0958	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0959	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0960	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0961	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0962	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0963	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0964	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0965	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus delbrueckii	Lactobacillus delbrueckii subsp. bulgaricus	Lactobacillus delbrueckii subsp. bulgaricus
+MGS.hg0966	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0967	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0968	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0969	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides ndongoniae	unclassified	Bacteroides ndongoniae
+MGS.hg0970	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0971	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cutis	unclassified	Bacteroides cutis
+MGS.hg0972	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0973	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio piger	unclassified	Desulfovibrio piger
+MGS.hg0974	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides finegoldii	unclassified	Bacteroides finegoldii
+MGS.hg0975	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0976	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0977	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0978	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	unclassified	unclassified	Veillonella sp.
+MGS.hg0979	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0980	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0981	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	unclassified	unclassified	unclassified	Rikenellaceae sp.
+MGS.hg0982	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	unclassified	unclassified	unclassified	unclassified	Acidaminococcales sp.
+MGS.hg0983	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg0984	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0985	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg0986	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	unclassified	unclassified	Desulfovibrio sp.
+MGS.hg0987	Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium mortiferum	unclassified	Fusobacterium mortiferum
+MGS.hg0988	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg0989	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0990	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Raoultella	Raoultella ornithinolytica	unclassified	Raoultella ornithinolytica
+MGS.hg0991	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0992	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg0993	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Faecalitalea	Faecalitalea cylindroides	unclassified	Faecalitalea cylindroides
+MGS.hg0994	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	unclassified	unclassified	Bacteroides sp.
+MGS.hg0995	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg0996	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg0997	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Mediterranea	Mediterranea massiliensis	unclassified	Mediterranea massiliensis
+MGS.hg0998	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg0999	Bacteria	Proteobacteria	Betaproteobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	Betaproteobacteria sp.
+MGS.hg1000	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1001	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1002	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg1003	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	unclassified	unclassified	unclassified	Veillonellaceae sp.
+MGS.hg1004	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1005	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	Barnesiella sp. An22	unclassified	Barnesiella sp. An22
+MGS.hg1006	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1007	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1008	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1009	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1010	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides sp. SN4	unclassified	Parabacteroides sp. SN4
+MGS.hg1011	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1012	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	unclassified	unclassified	unclassified	Erysipelotrichaceae sp.
+MGS.hg1013	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1014	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	unclassified	unclassified	unclassified	unclassified	Burkholderiales sp.
+MGS.hg1015	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg1016	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1017	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiales Family XIII. Incertae Sedis	Emergencia	Emergencia timonensis	unclassified	Emergencia timonensis
+MGS.hg1018	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg1019	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg1020	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides barnesiae	unclassified	Bacteroides barnesiae
+MGS.hg1021	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides stercorirosoris	unclassified	Bacteroides stercorirosoris
+MGS.hg1022	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1023	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1024	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg1025	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1026	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg1027	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1028	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1029	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1030	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1031	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1032	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg1033	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Hafniaceae	Hafnia	Hafnia paralvei	unclassified	Hafnia paralvei
+MGS.hg1034	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Odoribacter	Odoribacter sp. AF15-53	unclassified	Odoribacter sp. AF15-53
+MGS.hg1035	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae	Klebsiella pneumoniae subsp. pneumoniae	Klebsiella pneumoniae subsp. pneumoniae
+MGS.hg1036	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	unclassified	Escherichia coli
+MGS.hg1037	Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia mucilaginosa	unclassified	Rothia mucilaginosa
+MGS.hg1038	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	unclassified	unclassified	Veillonella sp.
+MGS.hg1039	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	unclassified	unclassified	unclassified	Prevotellaceae sp.
+MGS.hg1040	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1041	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides stercoris	unclassified	Bacteroides stercoris
+MGS.hg1042	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Dorea	Dorea formicigenerans	unclassified	Dorea formicigenerans
+MGS.hg1043	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium phoceensis	unclassified	Clostridium phoceensis
+MGS.hg1044	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1045	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus lactis	Lactococcus lactis subsp. lactis	Lactococcus lactis subsp. lactis
+MGS.hg1046	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1047	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1048	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Akkermansiaceae	Akkermansia	unclassified	unclassified	Akkermansia sp.
+MGS.hg1049	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecium	unclassified	Enterococcus faecium
+MGS.hg1050	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus epidermidis	unclassified	Staphylococcus epidermidis
+MGS.hg1051	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Holdemania	Holdemania massiliensis	unclassified	Holdemania massiliensis
+MGS.hg1052	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus gallinarum	unclassified	Enterococcus gallinarum
+MGS.hg1053	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1054	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus lutetiensis	unclassified	Streptococcus lutetiensis
+MGS.hg1055	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella seminalis	unclassified	Veillonella seminalis
+MGS.hg1056	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1057	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1058	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Lachnospiraceae bacterium 1_4_56FAA	unclassified	Lachnospiraceae bacterium 1_4_56FAA
+MGS.hg1059	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Hungatella	Clostridiales bacterium VE202-21	unclassified	Clostridiales bacterium VE202-21
+MGS.hg1060	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1061	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	unclassified	unclassified	unclassified	unclassified	Acidaminococcales sp.
+MGS.hg1062	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1063	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus avium	unclassified	Enterococcus avium
+MGS.hg1064	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1065	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella variicola	Klebsiella pneumoniae subsp. pneumoniae	Klebsiella pneumoniae subsp. pneumoniae
+MGS.hg1066	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	[Clostridium] saccharolyticum	unclassified	[Clostridium] saccharolyticum
+MGS.hg1067	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1068	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1069	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1070	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella oxytoca	unclassified	Klebsiella oxytoca
+MGS.hg1071	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus gasseri	unclassified	Lactobacillus gasseri
+MGS.hg1072	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1073	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pasteurianus	unclassified	Streptococcus pasteurianus
+MGS.hg1074	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1075	Bacteria	Spirochaetes	Spirochaetia	Brachyspirales	Brachyspiraceae	unclassified	unclassified	unclassified	Brachyspiraceae sp.
+MGS.hg1076	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1077	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1078	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1079	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1080	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	unclassified	unclassified	unclassified	Bacteroidaceae sp.
+MGS.hg1081	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus rhamnosus	unclassified	Lactobacillus rhamnosus
+MGS.hg1082	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus paracasei	Lactobacillus paracasei subsp. paracasei	Lactobacillus paracasei subsp. paracasei
+MGS.hg1083	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1084	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Massiliomicrobiota	Massiliomicrobiota timonensis	unclassified	Massiliomicrobiota timonensis
+MGS.hg1085	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1086	Bacteria	Bacteroidetes	Bacteroidia	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidia sp.
+MGS.hg1087	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus salivarius	unclassified	Lactobacillus salivarius
+MGS.hg1088	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus casseliflavus	unclassified	Enterococcus casseliflavus
+MGS.hg1089	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1090	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Turicibacter	Turicibacter sanguinis	unclassified	Turicibacter sanguinis
+MGS.hg1091	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1092	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1093	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. cloacae
+MGS.hg1094	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1095	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1096	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1097	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp. Marseille-P2431	unclassified	Alistipes sp. Marseille-P2431
+MGS.hg1098	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1099	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1100	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg1101	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1102	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1103	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1104	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1105	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1106	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium butyricum	unclassified	Clostridium butyricum
+MGS.hg1107	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1108	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1109	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1110	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	unclassified	unclassified	Porphyromonas sp.
+MGS.hg1111	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1112	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1113	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1114	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1115	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1116	Bacteria	Bacteroidetes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteroidetes sp.
+MGS.hg1117	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	unclassified	unclassified	unclassified	Atopobiaceae sp.
+MGS.hg1118	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1119	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1120	Bacteria	Firmicutes	Tissierellia	Tissierellales	Tissierellaceae	Urmitella	Urmitella timonensis	unclassified	Urmitella timonensis
+MGS.hg1121	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1122	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Ruminococcus	unclassified	unclassified	Ruminococcus sp.
+MGS.hg1123	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1124	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1125	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1126	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sartorii	unclassified	Bacteroides sartorii
+MGS.hg1127	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1128	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1129	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1130	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1131	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	unclassified	unclassified	unclassified	Lachnospiraceae sp.
+MGS.hg1132	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1133	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1134	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1135	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1136	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1137	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1138	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1139	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1140	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1141	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1142	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1143	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1144	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Culturomica	Culturomica massiliensis	unclassified	Culturomica massiliensis
+MGS.hg1145	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1146	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1147	Archaea	Euryarchaeota	Thermoplasmata	Methanomicrobiales	unclassified	unclassified	unclassified	unclassified	Methanomicrobiales sp.
+MGS.hg1148	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	unclassified	unclassified	unclassified	unclassified	Eggerthellales sp.
+MGS.hg1149	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg1150	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1151	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1152	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	unclassified	unclassified	Acidaminococcus sp.
+MGS.hg1153	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium sp. OM08-24	unclassified	Eubacterium sp. OM08-24
+MGS.hg1154	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus garvieae	unclassified	Lactococcus garvieae
+MGS.hg1155	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1156	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1157	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1158	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	unclassified	unclassified	unclassified	unclassified	Bacteroidales sp.
+MGS.hg1159	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1160	Bacteria	Proteobacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Proteobacteria sp.
+MGS.hg1161	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1162	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1163	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified sp.
+MGS.hg1164	Bacteria	Firmicutes	Clostridia	unclassified	unclassified	unclassified	unclassified	unclassified	Clostridia sp.
+MGS.hg1165	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio sp. AM18-2	unclassified	Desulfovibrio sp. AM18-2
+MGS.hg1166	Bacteria	Firmicutes	Clostridia	Clostridiales	unclassified	unclassified	unclassified	unclassified	Clostridiales sp.
+MGS.hg1167	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1168	Bacteria	Candidatus Melainabacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Candidatus Melainabacteria sp.
+MGS.hg1169	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	unclassified	unclassified	unclassified	Ruminococcaceae sp.
+MGS.hg1170	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1171	Bacteria	Firmicutes	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Firmicutes sp.
+MGS.hg1172	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Spirochaetaceae	unclassified	unclassified	unclassified	Spirochaetaceae sp.
+MGS.hg1173	Bacteria	Firmicutes	Negativicutes	Acidaminococcales	unclassified	unclassified	unclassified	unclassified	Acidaminococcales sp.
+MGS.hg1174	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella parvirubra	unclassified	Sutterella parvirubra
+MGS.hg1175	Bacteria	Firmicutes	Negativicutes	Selenomonadales	unclassified	unclassified	unclassified	unclassified	Selenomonadales sp.
+MGS.hg1176	Bacteria	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	unclassified	Bacteria sp.
+MGS.hg1177	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	unclassified	unclassified	unclassified	Bacteroidaceae sp.
+MGS.ref1174	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. 12(A)	unclassified	Clostridium sp. 12(A)
+MGS.ref1175	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] celerecrescens	unclassified	[Clostridium] celerecrescens
+MGS.ref1176	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	[Clostridium] citroniae	unclassified	[Clostridium] citroniae
+MGS.ref1177	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax	Acidovorax delafieldii	unclassified	Acidovorax delafieldii
+MGS.ref1178	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax	Comamonas kerstersii	unclassified	Comamonas kerstersii
+MGS.ref1179	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter bereziniae	unclassified	Acinetobacter bereziniae
+MGS.ref1180	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter johnsonii	unclassified	Acinetobacter johnsonii
+MGS.ref1181	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter ursingii	unclassified	Acinetobacter ursingii
+MGS.ref1182	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	Acinetobacter guillouiae	unclassified	Acinetobacter guillouiae
+MGS.ref1183	Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces ihuae	unclassified	Actinomyces ihuae
+MGS.ref1184	Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces oris	unclassified	Actinomyces oris
+MGS.ref1185	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas caviae	unclassified	Aeromonas caviae
+MGS.ref1186	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptoniphilaceae	Anaerosphaera	unclassified	unclassified	Anaerosphaera sp.
+MGS.ref1187	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Aliiarcobacter	Aliiarcobacter cryaerophilus	unclassified	Aliiarcobacter cryaerophilus
+MGS.ref1188	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. UNCCL125	unclassified	Methylobacterium sp. UNCCL125
+MGS.ref1189	Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	unclassified	unclassified	Atopobium sp.
+MGS.ref1190	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. An269	unclassified	Bacteroides sp. An269
+MGS.ref1191	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium saeculare	unclassified	Bifidobacterium saeculare
+MGS.ref1192	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia marasmi	unclassified	Blautia marasmi
+MGS.ref1193	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	Blautia hansenii	unclassified	Blautia hansenii
+MGS.ref1194	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Sutterellaceae	Turicimonas	Turicimonas muris	unclassified	Turicimonas muris
+MGS.ref1195	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas synergistica	unclassified	Butyricimonas synergistica
+MGS.ref1196	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Caecibacter massiliensis	unclassified	Caecibacter massiliensis
+MGS.ref1197	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	unclassified	Caulobacter sp. FWC26
+MGS.ref1198	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Chryseobacterium	Chryseobacterium gambrini	unclassified	Chryseobacterium gambrini
+MGS.ref1199	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter freundii	unclassified	Citrobacter freundii
+MGS.ref1200	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter amalonaticus	unclassified	Citrobacter amalonaticus
+MGS.ref1201	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter braakii	unclassified	Citrobacter braakii
+MGS.ref1202	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter freundii	unclassified	Citrobacter freundii
+MGS.ref1203	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	unclassified	unclassified	Citrobacter sp.
+MGS.ref1204	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. S-77	unclassified	Citrobacter sp. S-77
+MGS.ref1205	Bacteria	Synergistetes	Synergistia	Synergistales	Synergistaceae	Synergistes	Synergistes sp. 3_1_syn1	unclassified	Synergistes sp. 3_1_syn1
+MGS.ref1206	Bacteria	Firmicutes	Clostridia	Clostridiales	Erysipelotrichaceae	Dielma	Clostridiales bacterium VE202-08	unclassified	Clostridiales bacterium VE202-08
+MGS.ref1207	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnoclostridium	Clostridiales bacterium 1_7_47FAA	unclassified	Clostridiales bacterium 1_7_47FAA
+MGS.ref1208	Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium	Clostridium sp. MSTE9	unclassified	Clostridium sp. MSTE9
+MGS.ref1209	Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	Gordonibacter	Gordonibacter sp. An232A	unclassified	Gordonibacter sp. An232A
+MGS.ref1210	Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	unclassified	unclassified	Corynebacterium sp.
+MGS.ref1211	Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	Cutibacterium acnes	Cutibacterium acnes subsp. acnes	Cutibacterium acnes subsp. acnes
+MGS.ref1212	Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	Cutibacterium avidum	unclassified	Cutibacterium avidum
+MGS.ref1213	Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium sp. KPL1844	unclassified	Propionibacterium sp. KPL1844
+MGS.ref1214	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	unclassified	Enterobacter cloacae
+MGS.ref1215	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. cloacae
+MGS.ref1216	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	unclassified	Enterobacter cloacae
+MGS.ref1217	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Phytobacter	[Kluyvera] intestini	unclassified	[Kluyvera] intestini
+MGS.ref1218	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecium	unclassified	Enterococcus faecium
+MGS.ref1219	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus gilvus	unclassified	Enterococcus gilvus
+MGS.ref1220	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus raffinosus	unclassified	Enterococcus raffinosus
+MGS.ref1221	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecium	unclassified	Enterococcus faecium
+MGS.ref1222	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Listeria monocytogenes	unclassified	Listeria monocytogenes
+MGS.ref1223	Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Erysipelatoclostridium	Erysipelatoclostridium sp. An15	unclassified	Erysipelatoclostridium sp. An15
+MGS.ref1224	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	unclassified	Escherichia coli
+MGS.ref1225	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	unclassified	Escherichia coli
+MGS.ref1226	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium	Eubacterium limosum	unclassified	Eubacterium limosum
+MGS.ref1227	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	Flavobacterium sp. Leaf359	unclassified	Flavobacterium sp. Leaf359
+MGS.ref1228	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Sanguibacteroides	Sanguibacteroides justesenii	unclassified	Sanguibacteroides justesenii
+MGS.ref1229	Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	Gardnerella vaginalis	unclassified	Gardnerella vaginalis
+MGS.ref1230	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	Granulicatella sp. 572.rep2_STHE	unclassified	Granulicatella sp. 572.rep2_STHE
+MGS.ref1231	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	Haemophilus haemolyticus	unclassified	Haemophilus haemolyticus
+MGS.ref1232	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Hafniaceae	Hafnia	Hafnia alvei	unclassified	Hafnia alvei
+MGS.ref1233	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Kosakonia	Kosakonia cowanii	unclassified	Kosakonia cowanii
+MGS.ref1234	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae	unclassified	Klebsiella pneumoniae
+MGS.ref1235	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus amylovorus	unclassified	Lactobacillus amylovorus
+MGS.ref1236	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus helveticus	unclassified	Lactobacillus helveticus
+MGS.ref1237	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus reuteri	unclassified	Lactobacillus reuteri
+MGS.ref1238	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus vaginalis	unclassified	Lactobacillus vaginalis
+MGS.ref1239	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Lysinibacillus	Lysinibacillus fusiformis	unclassified	Lysinibacillus fusiformis
+MGS.ref1240	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Veillonellaceae bacterium DNF00751	unclassified	Veillonellaceae bacterium DNF00751
+MGS.ref1241	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera massiliensis	unclassified	Megasphaera massiliensis
+MGS.ref1242	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Morganellaceae	Morganella	Morganella morganii	Morganella morganii subsp. morganii	Morganella morganii subsp. morganii
+MGS.ref1243	Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Mycobacteriaceae	Mycobacteroides	Mycobacteroides chelonae	unclassified	Mycobacteroides chelonae
+MGS.ref1244	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria	Neisseria subflava	unclassified	Neisseria subflava
+MGS.ref1245	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Erwiniaceae	Pantoea	Pantoea sp. 3.5.1	unclassified	Pantoea sp. 3.5.1
+MGS.ref1246	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides gordonii	unclassified	Parabacteroides gordonii
+MGS.ref1247	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.ref1248	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	unclassified	unclassified	Prevotella sp.
+MGS.ref1249	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Pseudoflavonifractor	Pseudoflavonifractor sp. An176	unclassified	Pseudoflavonifractor sp. An176
+MGS.ref1250	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas extremaustralis	unclassified	Pseudomonas extremaustralis
+MGS.ref1251	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas parafulva	unclassified	Pseudomonas parafulva
+MGS.ref1252	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas nitroreducens	unclassified	Pseudomonas nitroreducens
+MGS.ref1253	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Robinsoniella	Robinsoniella peoriensis	unclassified	Robinsoniella peoriensis
+MGS.ref1254	Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia sp. HMSC072E10	unclassified	Rothia sp. HMSC072E10
+MGS.ref1255	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas artemidis	unclassified	Selenomonas artemidis
+MGS.ref1256	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Yersiniaceae	Serratia	Serratia marcescens	unclassified	Serratia marcescens
+MGS.ref1257	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Shewanellaceae	Shewanella	Shewanella xiamenensis	unclassified	Shewanella xiamenensis
+MGS.ref1258	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. CCH9-F2	unclassified	Sphingomonas sp. CCH9-F2
+MGS.ref1259	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus haemolyticus	unclassified	Staphylococcus haemolyticus
+MGS.ref1260	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus hominis	Staphylococcus hominis subsp. hominis	Staphylococcus hominis subsp. hominis
+MGS.ref1261	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus lugdunensis	unclassified	Staphylococcus lugdunensis
+MGS.ref1262	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas bentonitica	unclassified	Stenotrophomonas bentonitica
+MGS.ref1263	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas maltophilia	unclassified	Stenotrophomonas maltophilia
+MGS.ref1264	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus anginosus	unclassified	Streptococcus anginosus
+MGS.ref1265	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus constellatus	unclassified	Streptococcus constellatus
+MGS.ref1266	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	unclassified	unclassified	Streptococcus sp.
+MGS.ref1267	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus agalactiae	unclassified	Streptococcus agalactiae
+MGS.ref1268	Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella sp. DNF00869	unclassified	Veillonella sp. DNF00869
+MGS.ref1269	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter koseri	unclassified	Citrobacter koseri
