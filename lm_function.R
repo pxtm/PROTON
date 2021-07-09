@@ -1,3 +1,9 @@
+## LM function ----
+# df1: metadata
+# df2: covariates
+# variables: variables to assess
+# control_by: variables to control for, coming from metadata
+
 lm.associations <- function(df1, df2, variables, control_by) {
   library(effsize)
   library(caret)
@@ -20,7 +26,6 @@ lm.associations <- function(df1, df2, variables, control_by) {
       } else {
         f <- paste('mgs~', i, '+', paste(control_by, sep='+'))
       }
-      # f <- paste('mgs ~', i, '+ Gender + CenterID + Age')
       mod.a <-
         lm(
           f,
