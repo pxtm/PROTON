@@ -585,44 +585,6 @@ venn.plot <- VennDiagram::venn.diagram(x= list('Macro-albuminuria' = ctl.macro.l
 grid::grid.newpage()
 grid::grid.draw(venn.plot)
 
-##################################################################################################################################################################################################################################################################################################
-## Species level ----
-spps.ph <- tax_glom(physeq, taxrank = rank_names(physeq)[7])
-spps <- as.data.frame(spps.ph@otu_table)
-row.names(spps) <- make.unique(spps.ph@tax_table[,'Species'])
-spps <- as.data.frame(t(spps))
-
-## Control vs Normo ====
-ctl.nor.lm <- lm.associations(mtdt[mtdt$id%in%ctl.nor, ],  spps[row.names(spps)%in%ctl.nor,], variables = 'group_name', control_by = c('age', 'sex', 'race', 'bmi', 'diet'))$group_name
-ctl.nor.lm[ctl.nor.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%ctl.nor.lm[ctl.nor.lm$fdr<.1,]$mgs, ]
-
-## Control vs Micro ====
-ctl.micro.lm <- lm.associations(mtdt[mtdt$id%in%ctl.micro, ],  spps[row.names(spps)%in%ctl.micro,], variables = 'group', control_by = c('age', 'sex', 'race', 'bmi'))$group
-ctl.micro.lm[ctl.micro.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%ctl.micro.lm[ctl.micro.lm$fdr<.1,]$mgs, ]
-
-## Control vs Macro ====
-ctl.macro.lm <- lm.associations(mtdt[mtdt$id%in%ctl.macro, ],  spps[row.names(spps)%in%ctl.macro,], variables = 'group', control_by = c('age', 'sex', 'race', 'bmi'))$group
-ctl.macro.lm[ctl.macro.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%ctl.macro.lm[ctl.macro.lm$fdr<.1,]$mgs, ]
-
-## Normo vs Micro ====
-nor.micro.lm <- lm.associations(mtdt[mtdt$id%in%nor.micro, ],  spps[row.names(spps)%in%nor.micro,], variables = 'group', control_by = c('age', 'sex', 'race', 'bmi'))$group
-nor.micro.lm[nor.micro.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%nor.micro.lm[nor.micro.lm$fdr<.1,]$mgs, ]
-
-## Normo vs Macro ====
-nor.macro.lm <- lm.associations(mtdt[mtdt$id%in%nor.macro, ],  spps[row.names(spps)%in%nor.macro,], variables = 'group', control_by = c('age', 'sex', 'race', 'bmi'))$group
-nor.macro.lm[nor.macro.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%nor.macro.lm[nor.macro.lm$fdr<.1,]$mgs, ]
-
-## Micro vs Macro ====
-micro.macro.lm <- lm.associations(mtdt[mtdt$id%in%micro.macro, ],  spps[row.names(spps)%in%micro.macro,], variables = 'group', control_by = c('age', 'sex', 'race', 'bmi'))$group
-micro.macro.lm[micro.macro.lm$fdr<.1,]$mgs
-tax[row.names(tax)%in%micro.macro.lm[micro.macro.lm$fdr<.1,]$mgs, ]
-
-
 ## Ternary plots -- only T1D ------
 physeq.t1d <- subset_samples(physeq, group_name!='Controls')
 tern.plot <- microbiomeutilities::prep_ternary(physeq.t1d, group = 'group_name', level = 'lowest')
@@ -670,4 +632,50 @@ p.legend = plot_ly() %>%
 
 subplot(p.legend, p, widths = c(0.1, 0.9))
 
-api_create(p, filename = 'TernaryT1D')
+# api_create(p, filename = 'TernaryT1D')
+
+## Genus level ----
+genus.ph <- tax_glom(physeq, taxrank = rank_names(physeq)[6])
+genus <- data.frame(genus.ph@otu_table)
+# row.names(genus) <- make.unique(paste0(data.frame(genus.ph@tax_table)$Family, '_', data.frame(genus.ph@tax_table)$Genus))
+genus <- as.data.frame(t(genus))
+
+genus.log <- log(genus+1)
+genus.biclass <- lm.associations(mtdt, genus.log, variables = 'biclass', control_by = c('age', 'sex', 'race', 'bmi'))$biclass
+genus.biclass$delta <- as.numeric(genus.biclass$delta)
+genus.biclass$delta.low <- as.numeric(genus.biclass$delta.low)
+genus.biclass$delta.up <- as.numeric(genus.biclass$delta.up)
+# add variables for plotting purposes
+tax.gen <- data.frame(genus.ph@tax_table)
+row.names(tax.gen) == genus.biclass$mgs
+
+genus.biclass$bacteria <- tax.gen$Genus
+for (i in seq(1:nrow(genus.biclass))){
+  if (genus.biclass[i,]$bacteria == 'unclassified'){
+    genus.biclass[i,]$bacteria <- paste0('f_', tax.gen[i,]$Family, '_g_unclassified')
+  } else {}
+}
+
+genus.biclass$phylum <- factor(tax.gen$Phylum, levels = c('Actinobacteria', 'Bacteroidetes', 'Candidatus Melainabacteria', 'Euryarchaeota',
+                                                'Firmicutes', 'Lentisphaerae', 'Proteobacteria', 'Spirochaetes', 'Stramenopiles', 
+                                                'Synergistetes', 'Verrucomicrobia', 'unclassified'))
+genus.biclass$prevalence <- (colSums(!(genus==0))/nrow(genus))*100
+genus.biclass$qmp.relabd <- colSums(genus)/sum(colSums(genus))
+
+# add colors for phylum
+colourCount = length(levels(genus.biclass$phylum))
+getPalette = colorRampPalette(brewer.pal(9, "Set1"))
+ggplot(genus.biclass, aes(delta*-1, -log10(fdr))) +
+  geom_point(aes(size = prevalence, color = phylum, alpha=qmp.relabd)) + 
+  geom_hline(yintercept = -log10(.1), linetype = 'dashed', color = 'red') +
+  geom_hline(yintercept = -log10(.01), linetype = 'dashed', color = 'orange') +
+  geom_vline(xintercept = 0, linetype = 'dashed') +
+  scale_alpha(range = c(0.4, 0.8)) +
+  annotation_custom(grobTree(textGrob('Controls', x = .1, y = .15, gp=gpar(col = 'gray', fontsize = 35, fontface = 'bold.italic', alpha =.6), rot = 90))) +
+  annotation_custom(grobTree(textGrob('T1D', x = .9, y = .1, gp=gpar(col = 'gray', fontsize = 35, fontface = 'bold.italic', alpha =.6), rot = 90))) +
+  geom_text_repel(aes(label = ifelse(fdr<.1, bacteria, '')), fontface = 'italic') +
+  theme_bw() + theme(plot.title = element_text(size = 10)) +
+  scale_color_manual(values = getPalette(colourCount)) +
+  labs(x = "Cliff's Delta effect size", y = bquote("-"~log[10]~"(FDR)"), 
+       title = 'Differential genera between healthy individuals (n=50) and T1D-diagnosed patients (n=161)',
+       color = 'Phylum', size = 'Genus prevalence\nin the cohort', alpha = 'Mean rel. abundance\nin the total cohort')

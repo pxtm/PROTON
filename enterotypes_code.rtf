@@ -1,0 +1,143 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 library(DirichletMultinomial)\
+library(GGally)\
+library(ggplot2)\
+library(lattice)\
+library(xtable)\
+library(parallel)\
+library(phyloseq)\
+library(reshape2)\
+library(magrittr)\
+library(dplyr)\
+library(stringr)\
+library(phyloseq)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 MGS.full <- as.data.frame(readRDS('genusqmp.rds'))
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+## Enterotyping with all samples together ----\
+genus_table <- as.data.frame(t(
+\f1\fs22 \cf2 \CocoaLigature0 MGS.full))
+\f0\fs24 \cf0 \CocoaLigature1  ## INPUT IS A GENUS TABLE! CHECK FORMAT, must be: Genus (indicate names!) in rows and RAW COUNTS, samples in columns. Derive it from phyloseq. Genus data frame containing the highly abundant (10%) MGSs\
+\
+count <- as.matrix(t(genus_table)) ## transpose an convert to matrix\
+\
+genus_table <- genus_table/min(genus_table[genus_table>0]) ## impute 0 counts\
+enterotype_df <- data.frame(matrix(nrow=ncol(genus_table),ncol=0), row.names = colnames(genus_table))\
+\
+all_dmns = 6\
+\
+dmn_list = numeric(all_dmns)\
+\
+for(i in 1:all_dmns)\{\
+  print(i)\
+  assign(paste0("dmn_", i), dmn(as.matrix(t(genus_table )), i, verbose=F))\
+\}\
+dmn_list = list(dmn_1, dmn_2, dmn_3, dmn_4, dmn_5, dmn_6)\
+\
+#save clusters / metacommunities\
+Dirichlet_multinomial_1 = mixture(dmn_list[[1]], assign = TRUE)\
+Dirichlet_multinomial_2 = mixture(dmn_list[[2]], assign = TRUE)\
+Dirichlet_multinomial_3 = mixture(dmn_list[[3]], assign = TRUE)\
+Dirichlet_multinomial_4 = mixture(dmn_list[[4]], assign = TRUE)\
+Dirichlet_multinomial_5 = mixture(dmn_list[[5]], assign = TRUE)\
+Dirichlet_multinomial_6 = mixture(dmn_list[[6]], assign = TRUE)\
+\
+Dirichlet_multinomial_all = data.frame(cbind(Dirichlet_multinomial_1,Dirichlet_multinomial_2,Dirichlet_multinomial_3,Dirichlet_multinomial_4,Dirichlet_multinomial_5,Dirichlet_multinomial_6))\
+colnames(Dirichlet_multinomial_all) = c("DMM_k=1","DMM_k=2","DMM_k=3","DMM_k=4","DMM_k=5","DMM_k=6")\
+\
+# minimum information criteria\
+lplc <- sapply(dmn_list, laplace)\
+BIC <- sapply(dmn_list, BIC)\
+AIC <- sapply(dmn_list, AIC)\
+dmn_list[[which.min(lplc)]] # optimal number of metacommunities (Laplace information criterion)\
+dmn_list[[which.min(BIC)]] # optimal number of metacommunities (Bayesian information criterion)\
+dmn_list[[which.min(AIC)]] # optimal number of metacommunities (Akaike information criterion)\
+\
+# plot information criteria\
+#pdf(paste0("min_dirichlet_components.",DATASET[data_i],".20190114.pdf"), onefile=T)\
+pdf("ALL_lplc-BIC-AIC.pdf")\
+plot(lplc, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit, Laplace") \
+plot(BIC, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit, BIC") \
+plot(AIC, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit, AIC") \
+dev.off()\
+\
+#end#\
+\
+write.csv(Dirichlet_multinomial_all, "ALL_Dirichlet_multinomial_all.csv")\
+\
+#(best <- dmn_list[[which.min(lplc)]]) #find the best model\
+best <- dmn_list[[4]]\
+\
+\
+mixturewt(best)\
+head(mixture(best), 3)\
+\
+pdf("ALL_fitted.pdf")\
+splom(log(fitted(best)))\
+dev.off()\
+\
+p0 <- fitted(dmn_list[[1]], scale=TRUE)     # scale by theta\
+p2 <- fitted(best, scale=TRUE)\
+colnames(p2) <- paste("m", 1:4, sep="")\
+(meandiff <- colSums(abs(p2 - as.vector(p0))))\
+\
+\
+sum(meandiff)\
+\
+\
+diff <- rowSums(abs(p2 - as.vector(p0)))\
+o <- order(diff, decreasing=TRUE)\
+cdiff <- cumsum(diff[o]) / sum(diff)\
+df <- head(cbind(Mean=p0[o], p2[o,], diff=diff[o], cdiff), 10)\
+\
+\
+pdf("ALL_heatmap1.pdf")\
+heatmapdmn(count, dmn_list[[1]], best, 30)\
+dev.off()\
+\
+ass <- apply(mixture(best), 1, which.max)\
+\
+write.csv(ass, file="ALL_sample_enterotype.csv")\
+\
+write.csv(count, file="ALL_count.csv")\
+\
+\
+\
+d <- melt(fitted(best))\
+colnames(d) <- c("OTU", "cluster", "value")\
+d1 <- subset(d, cluster == 1) %>% arrange(value) %>% mutate(OTU = factor(OTU, levels = unique(OTU))) %>% filter(abs(value) > quantile(abs(value), 0.9)) %>% do(tail(.,n=10)) \
+d1$OTU <- factor(d1$OTU, levels = d1$OTU[order(d1$value)])\
+p1 <- ggplot(d1, aes(x = OTU, y = value)) + geom_bar(stat = "identity") + coord_flip() + labs(title = "Top drivers: community type 1", x="genus", y="contribution")\
+\
+d2 <- subset(d, cluster == 2) %>% arrange(value) %>% mutate(OTU = factor(OTU, levels = unique(OTU))) %>% filter(abs(value) > quantile(abs(value), 0.9)) %>% do(tail(.,n=10))\
+d2$OTU <- factor(d2$OTU, levels = d2$OTU[order(d2$value)])   \
+p2 <- ggplot(d2, aes(x = OTU, y = value)) + geom_bar(stat = "identity") + coord_flip() + labs(title = "Top drivers: community type 2", x="genus", y="contribution")\
+\
+d3 <- subset(d, cluster == 3) %>% arrange(value) %>% mutate(OTU = factor(OTU, levels = unique(OTU))) %>% filter(abs(value) > quantile(abs(value), 0.9)) %>% do(tail(.,n=10)) \
+d3$OTU <- factor(d3$OTU, levels = d3$OTU[order(d3$value)])      \
+p3 <- ggplot(d3, aes(x = OTU, y = value)) + geom_bar(stat = "identity") + coord_flip() + labs(title = "Top drivers: community type 3", x="genus", y="contribution")\
+\
+d4 <- subset(d, cluster == 4) %>% arrange(value) %>% mutate(OTU = factor(OTU, levels = unique(OTU))) %>% filter(abs(value) > quantile(abs(value), 0.9)) %>% do(tail(.,n=10))    \
+d4$OTU <- factor(d4$OTU, levels = d4$OTU[order(d4$value)])   \
+p4 <- ggplot(d4, aes(x = OTU, y = value)) + geom_bar(stat = "identity") + coord_flip() + labs(title = "Top drivers: community type 4", x="genus", y="contribution")\
+\
+\
+pdf("ALL_Top_Driver_Components.pdf")\
+print(p1)\
+print(p2)\
+print(p3)\
+print(p4)\
+dev.off()\
+\
+\
+save(genus_table, dmn_list, best, count, ass, d, Dirichlet_multinomial_1, Dirichlet_multinomial_2, Dirichlet_multinomial_3, Dirichlet_multinomial_4, Dirichlet_multinomial_5, Dirichlet_multinomial_6, Dirichlet_multinomial_all, lplc, BIC, AIC, file="ALL_DMMenterotyping_igrHA_Plots_famgen_alldmm6.RData")}

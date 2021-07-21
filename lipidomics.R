@@ -27,9 +27,16 @@ source('lm_function.R')
 
 ## data
 mtdt <- readRDS('mtdt_common.rds')
-lipids.res <- readRDS('residuals_lipids_egfr.rds')
-
+# lipids.res <- readRDS('residuals_lipids_egfr.rds')
+lipids.res <- readRDS('lipids_clusters.rds')
 row.names(mtdt) == row.names(lipids.res)
+
+lipids.annot <- data.table::fread('lipidclusters_annotation.txt', header = T, sep ='\t', select = c(1:3))
+lipids.annot$name <- make.unique(lipids.annot$name)
+lipids.annot$cluster <- paste0('ME', lipids.annot$cluster)
+lipids.annot$cluster == names(lipids.res)
+names(lipids.res) <- lipids.annot$name
+rm(lipids.annot)
 
 ##### Controls vs T1D ------------------------------------------------------------------------------------
 ## PCA for controls vs T1D 
@@ -47,8 +54,8 @@ p1 <- ggplot(scores.lipids.res, aes(PC1, PC2, color = T1D)) +
   geom_vline(xintercept = 0, linetype = 'dashed') +
   scale_color_taylor() +
   theme_bw() +
-  labs(x = "Principal Component 1 (var. expl. 15.1%)", 
-       y = "Principal Component 2 (var.expl. 8.3%)")
+  labs(x = "Principal Component 1 (var. expl. 21.3%)", 
+       y = "Principal Component 2 (var.expl. 12.4%)")
 
 ggExtra::ggMarginal(
   p = p1,
@@ -100,8 +107,8 @@ p1 <- ggplot(scores.lipids.res.red, aes(PC1, PC2, color = T1D)) +
   geom_vline(xintercept = 0, linetype = 'dashed') +
   scale_color_taylor() +
   theme_bw() +
-  labs(x = "Principal Component 1 (var. expl. 29.5%)", 
-       y = "Principal Component 2 (var.expl. 9.8%)", 
+  labs(x = "Principal Component 1 (var. expl. 54.8%)", 
+       y = "Principal Component 2 (var.expl. 26.7%)", 
        color = 'Clinical\ngroup')
 
 ggExtra::ggMarginal(
@@ -139,34 +146,38 @@ lipids.res.ctrl <- lipids.res[lipids.res$T1D == 'Controls',]
 lipids.res.t1d <- lipids.res[lipids.res$T1D == 'T1D',]
 
 lipids.res$T1D
-eff.size <- sapply(lipids.res[,1:7470], function(x){
+# eff.size <- sapply(lipids.res[,1:7470], function(x){
+#   cliff.delta(x, lipids.res$T1D, data = lipids.res)$estimate
+# })
+eff.size <- sapply(lipids.res[,1:122], function(x){
   cliff.delta(x, lipids.res$T1D, data = lipids.res)$estimate
 })
 
-p.vals <- sapply(lipids.res[,1:7470], function(x){
+# p.vals <- sapply(lipids.res[,1:7470], function(x){
+#   t.test(x~T1D, data = lipids.res)$p.val
+# })
+p.vals <- sapply(lipids.res[,1:122], function(x){
   t.test(x~T1D, data = lipids.res)$p.val
 })
 
 volcano.ctl.t1d <- data.frame('Effect.size' = eff.size, 
                               'p.values' = p.vals, 'fdr' = p.adjust(p.vals, method = 'fdr'))
 
-ggplot(lipids.res, aes(T1D, Cer.d41.1.)) +
+ggplot(lipids.res, aes(T1D, unknown20)) +
   geom_boxplot() + geom_quasirandom()
 
 ggplot(volcano.ctl.t1d, aes(Effect.size, -log10(fdr))) +
-  geom_point(aes(color = ifelse(fdr<.05, 'red', 'black'))) +
-  geom_hline(yintercept = -log10(.05), linetype = 'dashed', color = 'red') +
+  geom_point(aes(color = ifelse(fdr<.1, 'red', 'black'))) +
+  geom_hline(yintercept = -log10(.1), linetype = 'dashed', color = 'red') +
   geom_hline(yintercept = -log10(.01), linetype = 'dashed', color = 'orange') +
   geom_hline(yintercept = -log10(.001), linetype = 'dashed', color = 'darkolivegreen2') +
   geom_vline(xintercept = 0, linetype = 'dashed') +
   annotation_custom(grobTree(textGrob('T1D', x = .1, y = .1, gp=gpar(col = 'gray', fontsize = 35, fontface = 'bold.italic', alpha =.6), rot = 90))) +
   annotation_custom(grobTree(textGrob('Controls', x = .9, y = .19, gp=gpar(col = 'gray', fontsize = 35, fontface = 'bold.italic', alpha =.6), rot = 90))) +
   scale_color_manual(values = c('black', 'red')) + guides(color = F) +
-  # geom_text_repel(aes(label = ifelse(fdr<0.05, as.character(row.names(volcano.ctl.t1d)), ''))) +
+  geom_text_repel(aes(label = ifelse(fdr<=.1, as.character(row.names(volcano.ctl.t1d)), ''))) +
   theme_bw() +
   labs(x = "Cliff's Delta effect size", y = bquote("-"~log[10]~"(FDR)"))
-
-dim(volcano.ctl.t1d[volcano.ctl.t1d$fdr<.05,])
 
 row.names(volcano.ctl.t1d[volcano.ctl.t1d$fdr<.1,])
 names(lipids.res.reduced)
@@ -180,14 +191,14 @@ lipids.res$T1D.num <- plyr::revalue(lipids.res$T1D, replace = c('Controls' = 0, 
 met.aucs <- c()
 low.aucs <- c()
 high.aucs <- c()
-for (i in names(lipids.res)[1:7470]){
+for (i in names(lipids.res)[1:122]){
   opt.test <- optimal.cutpoints(X = i, status= 'T1D.num', data = lipids.res, methods = c('ValueSe', 'ValueSp', 'Youden', 'MaxDOR', 'ValueNPV', 'ValuePPV'), tag.healthy = 0)
   met.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[1]
   low.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[2]
   high.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[3]
 }
 
-names(met.aucs) <- names(lipids.res)[1:7470]
+names(met.aucs) <- names(lipids.res)[1:122]
 names(met.aucs) == names(p.vals)
 
 met.aucs <- data.frame('Metabolite' = names(met.aucs), 'AUC' = met.aucs, 'Low.AUC' = low.aucs, 'High.AUC' = high.aucs, 'p-value' = p.vals, 'FDR' = p.adjust(p.vals, method = 'fdr'))
@@ -204,7 +215,7 @@ ggplot(met.aucs, aes(AUC, Metabolite, color = ifelse(FDR<.1, 'red', 'black'))) +
   geom_vline(xintercept = 0.33, linetype = 'dashed') +
   geom_vline(xintercept = 0.25, linetype = 'dotted') +
   xlim(0,1) + guides(color=F) + 
-  theme_bw() + coord_flip()
+  theme_bw() + coord_flip() + theme(axis.text.x = element_text(angle=90, hjust =1, vjust =.5))
 
 volcano.ctl.t1d <- volcano.ctl.t1d[match(row.names(met.aucs), row.names(volcano.ctl.t1d)),]
 row.names(met.aucs) == row.names(volcano.ctl.t1d)
@@ -213,6 +224,35 @@ met.aucs %>%
   write.table('CTLvsT1D_univariatelipidomics.txt', sep = '\t', row.names = F)
 
 
+## lipid cluster abundances per T1D subgroup
+diff.clusters <- row.names(volcano.ctl.t1d[volcano.ctl.t1d$fdr<.1,])
+lipids.diff <- lipids.res[,names(lipids.res)%in%diff.clusters]
+lipids.diff$group <- factor(mtdt$Groups, levels = c('Controls', 'Normo', 'Micro', 'Macro'))
+names(lipids.diff) <- make.names(names(lipids.diff))
+lipids.diff.m <- reshape2::melt(lipids.diff)
+
+plots <- list()
+for (i in diff.clusters){
+  plots[[i]] <- ggplot(lipids.diff, aes_string('group', make.names(i))) +
+    geom_boxplot(aes(color = lipids.diff$group)) +
+    geom_quasirandom(aes(color = lipids.diff$group), alpha = .3) +
+    scale_color_taylor() +
+    stat_compare_means() + 
+    stat_compare_means(comparisons = list(c('Normo', 'Micro'), c('Normo', 'Macro'), c('Micro', 'Macro'))) + 
+    theme_bw() + guides(color = F)
+}
+
+multi.page <- ggarrange(plotlist = plots, nrow=4, ncol=4)
+ggexport(multi.page, filename = 'Metabolomics/Lipiclustersabd.pdf', width = 12, height = 12)
+
+ggplot(lipids.diff.m, aes(group, value, group = interaction(group))) +
+  geom_boxplot(aes(color = group)) +
+  geom_quasirandom(aes(color = group)) +
+  facet_wrap(~variable, scales = 'free') + 
+  scale_color_taylor() +
+  stat_compare_means() + 
+  stat_compare_means(comparisons = list(c('Normo', 'Micro'), c('Normo', 'Macro'), c('Micro', 'Macro'))) + 
+  theme_bw()
 
 ##### Normo vs macro ------------------------------------------------------------------------------------
 ## PCA for normo vs macro
@@ -220,7 +260,9 @@ ind.normo.macro <- c(row.names(mtdt[mtdt$Groups=='Normo',]), row.names(mtdt[mtdt
 lip.res.nor.mac <- lipids.res[row.names(lipids.res)%in%ind.normo.macro,]
 mtdt.nor.mac <- mtdt[row.names(mtdt)%in%ind.normo.macro,]
 
-pca.lipids.res.nor.mac <- prcomp(lip.res.nor.mac[,1:7470], scale. = T, center = T)
+# pca.lipids.res.nor.mac <- prcomp(lip.res.nor.mac[,1:7470], scale. = T, center = T)
+pca.lipids.res.nor.mac <- prcomp(lip.res.nor.mac[,1:122], scale. = T, center = T)
+
 fviz_screeplot(pca.lipids.res.nor.mac)
 fviz_pca_ind(pca.lipids.res.nor.mac, geom = 'point', col.ind = mtdt.nor.mac$Groups, addEllipses = T)
 scores.lipids.res <- as.data.frame(pca.lipids.res.nor.mac$x)
@@ -253,6 +295,7 @@ lip.train <- training(lip.split)
 mylist <-list('total' = row.names(lip.res.nor.mac), 'train' = row.names(lip.train))
 common_values <- intersect(row.names(lip.res.nor.mac), row.names(lip.train))
 train.index <- lapply(mylist, function(x) which(x %in% common_values))$total
+# pca.lipids.res.nor.mac <- prcomp(lip.res.nor.mac[,1:7470], scale. = T, center = T)
 
 # initial fit
 nor.mac.pls <- opls(lip.res.nor.mac, mtdt.nor.mac$Groups, subset = train.index, predI = 5)
@@ -340,7 +383,9 @@ ind.normo.micro <- c(row.names(mtdt[mtdt$Groups=='Normo',]), row.names(mtdt[mtdt
 lip.res.nor.mic <- lipids.res[row.names(lipids.res)%in%ind.normo.micro,]
 mtdt.nor.mic <- mtdt[row.names(mtdt)%in%ind.normo.micro,]
 
-pca.lipids.res.nor.mic <- prcomp(lip.res.nor.mic[,1:7470], scale. = T, center = T)
+# pca.lipids.res.nor.mic <- prcomp(lip.res.nor.mic[,1:7470], scale. = T, center = T)
+pca.lipids.res.nor.mic <- prcomp(lip.res.nor.mic[,1:122], scale. = T, center = T)
+
 fviz_screeplot(pca.lipids.res.nor.mic)
 fviz_pca_ind(pca.lipids.res.nor.mic, geom = 'point', col.ind = mtdt.nor.mic$Groups, addEllipses = T)
 scores.lipids.res <- as.data.frame(pca.lipids.res.nor.mic$x)
@@ -460,7 +505,9 @@ ind.micro.macro <- c(row.names(mtdt[mtdt$Groups=='Micro',]), row.names(mtdt[mtdt
 lip.res.mic.mac <- lipids.res[row.names(lipids.res)%in%ind.micro.macro,]
 mtdt.mic.mac <- mtdt[row.names(mtdt)%in%ind.micro.macro,]
 
-pca.lipids.res.mic.mac <- prcomp(lip.res.mic.mac[,1:7470], scale. = T, center = T)
+# pca.lipids.res.mic.mac <- prcomp(lip.res.mic.mac[,1:7470], scale. = T, center = T)
+pca.lipids.res.mic.mac <- prcomp(lip.res.mic.mac[,1:122], scale. = T, center = T)
+
 fviz_screeplot(pca.lipids.res.mic.mac)
 fviz_pca_ind(pca.lipids.res.mic.mac, geom = 'point', col.ind = mtdt.mic.mac$Groups, addEllipses = T)
 scores.lipids.res <- as.data.frame(pca.lipids.res.mic.mac$x)
@@ -573,3 +620,4 @@ ggplot(volcano.mic.mac, aes(Effect.size, -log10(fdr))) +
   labs(x = "Cliff's Delta effect size", y = bquote("-"~log[10]~"(FDR)"))
 hist(volcano.mic.mac$fdr); min(volcano.mic.mac$fdr)
 ####
+

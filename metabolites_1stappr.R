@@ -141,10 +141,20 @@ out.normo[out.normo$normo.fdr<.1,]
 
 
 ## lipidomics ----
+lipids.annot <- read.table('Metabolomics/Lipidomics/edited_feature_info_table_lipids_PROTON.txt', header =T, sep ='\t')
+## settings for WGCNA
+cor_method          = "spearman" ### for association with clinical parameters
+corFun_tmp          = "bicor"
+cluster_method      = "average"
+corOptions_list     = list (use = 'pairwise.complete.obs') 
+corOptions_str      = "use = 'pairwise.complete.obs'"
+BH_pval_asso_cutoff = 0.05
+NetworkType         = "signed" ### Signed-network (as the PC1 and median profile does not make sense as a summary measure of a cluster with anticorrelated metabolites.)
+
 # reduce dimensionality --- cluster them!
 allowWGCNAThreads()
 # Choose a set of soft-thresholding powers
-powers = c(c(1:10), seq(from = 12, to=40, by=2))
+powers = c(c(1:25), seq(from = 12, to=40, by=2))
 # Call the network topology analysis function
 sft = pickSoftThreshold(lipids, powerVector = powers, verbose = 5)
 #Plot the results:
@@ -160,18 +170,24 @@ abline(h=0.90,col="red")
 plot(sft$fitIndices[,1], sft$fitIndices[,5],xlab="Soft Threshold (power)",ylab="Mean Connectivity", type="n",main = paste("Mean connectivity"))
 text(sft$fitIndices[,1], sft$fitIndices[,5], labels=powers, cex=cex1,col="red")
 
-softPower = 4
-adjacency = adjacency(lipids, power = softPower)
+## seeing the results of the plots, we set:
+RsquareCut_val      = 0.9 ### usually ranges 0.80-0.95 but requires inspecting curves
+mergingThresh       = 0.20 ### Maximum dissimilarity of module eigengenes (i.e. 1-correlation) for merging modules.
+minModuleSize       = 3 ### minimum number of metabolites constituting a cluster
+SoftPower           = 5 ### beta-value, main parameter to optimize
+par(mfrow = c(1,1))
+
+adjacency = adjacency(lipids, power = SoftPower)
 # Turn adjacency into topological overlap
 TOM = TOMsimilarity(adjacency)
 dissTOM = 1-TOM
 # Call the hierarchical clustering function
 geneTree = hclust(as.dist(dissTOM), method = "average")
 # Plot the resulting clustering tree (dendrogram)
-sizeGrWindow(12,9)
+# sizeGrWindow(12,9)
 plot(geneTree, xlab="", sub="", main = "Gene clustering on TOM-based dissimilarity",labels = FALSE, hang = 0.04)
 # We like large modules, so we set the minimum module size relatively high:
-minModuleSize = 30
+# minModuleSize = 15 #30
 # Module identification using dynamic tree cut:
 dynamicMods = cutreeDynamic(dendro = geneTree, distM = dissTOM,deepSplit = 2, pamRespectsDendro = FALSE,minClusterSize = minModuleSize)
 table(dynamicMods)
@@ -179,11 +195,38 @@ table(dynamicMods)
 dynamicColors = labels2colors(dynamicMods)
 table(dynamicColors)
 # Plot the dendrogram and colors underneath
-sizeGrWindow(8,6)
+# sizeGrWindow(8,6)
 plotDendroAndColors(geneTree, dynamicColors, "Dynamic Tree Cut",dendroLabels = FALSE, hang = 0.03,addGuide = TRUE, guideHang = 0.05,main = "Gene dendrogram and module colors")
 # Calculate eigengenes
 MEList = moduleEigengenes(lipids, colors = dynamicColors)
 MEs = MEList$eigengenes
+annotation.file <- data.frame('lipid' = names(lipids), 'cluster' = MEList$validColors)
+
+### Determine relevant descriptive statistics of established clusters
+### kIN: within-module connectivity, determined by summing connectivity with all
+###      other metabolites in the given cluster.
+### kME: bicor-correlation between the metabolite profile and module eigenvector; 
+### both measures of intramodular hub-metabolite status.
+kIN <-      vector (length = ncol (lipids)); names (kIN) = colnames (lipids)
+kME <-      vector (length = ncol (lipids)); names (kME) = colnames (lipids)
+modules <-  vector (length = ncol (lipids)); names (modules) = colnames (lipids)
+
+for (module in names (table (dynamicColors))) {   
+  all.metabolites = names (lipids)
+  inModule = (dynamicColors == module)
+  module.metabolites = names (dynamicColors [inModule])
+  modules [module.metabolites] = module 
+  kIN [module.metabolites] = sapply (module.metabolites, function (x) sum (A [x, module.metabolites]) - 1)
+  datKME = signedKME (lipids, MEs, corFnc = corFun_tmp, corOptions = corOptions_str)
+  rownames (datKME) = colnames (lipids)
+  kME [module.metabolites] = datKME [module.metabolites, paste ("kME", module, sep = "")]   
+  
+}
+output <- data.frame("module" = modules, "kME" = kME, "kIN" = kIN)
+head(output)
+identical(row.names(output), names(lipids))
+
 saveRDS(MEs, 'lipids_clusters.rds')
+write.table(annotation.file, 'lipid_cluster_annotation.txt')
 annot.row <- data.frame('group' = mtdt$Groups, 'sex'=mtdt$sex); row.names(annot.row) <- row.names(mtdt)
 pheatmap::pheatmap(MEs, annotation_row = annot.row)
