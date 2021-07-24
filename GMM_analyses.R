@@ -14,6 +14,7 @@ library(reshape2)
 library(ggrepel)
 library(tayloRswift)
 library(grid)
+library(corrplot)
 
 ## functions
 source('lm_function.R')
@@ -213,3 +214,18 @@ microvsmacro.plot <- cowplot::plot_grid(volcano.mic.mac, loadings, ncol = 2)#, r
 microvsmacro.plot <- cowplot::add_sub(microvsmacro.plot, "For the volcano plot, Cliff's Delta has been inverted for visualization purposes. Points are labelled if FDR < 10%.\nInversion of the Cliff's Delta values is maintained for interpretation coherence in the individual MGS effect sizes barplots",
                                       fontface = 'italic', size = 10)
 cowplot::ggdraw(microvsmacro.plot)
+
+## correlations with genera? ----
+genus.log <- readRDS('genusLOG.rds')
+tax.gen <- read.table('tax.txt', header=T, sep ='\t')
+tax.gen <- tax.gen[tax.gen$X%in%names(genus.log),]
+tax.gen$X == names(genus.log)
+names(genus.log) <- make.unique(paste0('f_', tax.gen$Family, ';g_', tax.gen$Genus))
+row.names(genus.log) == row.names(gmm)
+
+genus.gmm <- cbind(genus.log, gmm)
+genus.gmm.c <- cor(genus.gmm, method = 'spearman')
+genus.gmm.p <- cor.mtest(genus.gmm, method = 'spearman')
+
+corrplot(genus.gmm.c[1:146, 147:247], p.mat = genus.gmm.p$p[1:146, 147:247], 
+         insig = 'blank', tl.cex = .3)

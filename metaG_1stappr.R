@@ -641,6 +641,7 @@ genus <- data.frame(genus.ph@otu_table)
 genus <- as.data.frame(t(genus))
 
 genus.log <- log(genus+1)
+# saveRDS(genus.log, 'genusLOG.rds')
 genus.biclass <- lm.associations(mtdt, genus.log, variables = 'biclass', control_by = c('age', 'sex', 'race', 'bmi'))$biclass
 genus.biclass$delta <- as.numeric(genus.biclass$delta)
 genus.biclass$delta.low <- as.numeric(genus.biclass$delta.low)

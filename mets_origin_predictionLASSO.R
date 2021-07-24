@@ -111,6 +111,7 @@ lasso.metaG.df <- do.call(rbind.data.frame, lasso.metaG)
 lasso.metaG.df$fdr <- p.adjust(lasso.metaG.df$pval, method = 'fdr')
 lasso.metaG.df.taxa <- lasso.metaG.df[complete.cases(lasso.metaG.df),]
 lasso.metaG.df$MGS <- NULL
+write.table(lasso.metaG.df, 'polarmetabolites_QMP.txt', sep='\t')
 
 lasso.metaG.df.taxa2 <- lasso.metaG.df.taxa$MGS
 names(lasso.metaG.df.taxa2) <- row.names(lasso.metaG.df.taxa) 
@@ -152,6 +153,7 @@ lasso.GMM.df <- do.call(rbind.data.frame, lasso.GMM)
 lasso.GMM.df$fdr <- p.adjust(lasso.GMM.df$pval, method = 'fdr')
 lasso.GMM.df.taxa <- lasso.GMM.df[complete.cases(lasso.GMM.df),]
 lasso.GMM.df$MGS <- NULL
+write.table(lasso.GMM.df, 'polarmetabolites_GMM.txt', sep='\t')
 
 lasso.GMM.df.taxa2 <- lasso.GMM.df.taxa$MGS
 names(lasso.GMM.df.taxa2) <- row.names(lasso.GMM.df.taxa) 
@@ -397,6 +399,7 @@ lasso.metaG.lip.df <- do.call(rbind.data.frame, lasso.metaG.lip)
 lasso.metaG.lip.df$fdr <- p.adjust(lasso.metaG.lip.df$pval, method = 'fdr')
 lasso.metaG.lip.df.taxa <- lasso.metaG.lip.df[complete.cases(lasso.metaG.lip.df),]
 lasso.metaG.lip.df$MGS <- NULL
+write.table(lasso.metaG.lip.df, 'lipidomics_QMP.txt', sep='\t')
 
 lasso.metaG.lip.df.taxa2 <- lasso.metaG.lip.df.taxa$MGS
 names(lasso.metaG.lip.df.taxa2) <- row.names(lasso.metaG.lip.df.taxa) 
@@ -437,6 +440,7 @@ lasso.GMM.df <- do.call(rbind.data.frame, lasso.GMM)
 lasso.GMM.df$fdr <- p.adjust(lasso.GMM.df$pval, method = 'fdr')
 lasso.GMM.df.taxa <- lasso.GMM.df[complete.cases(lasso.GMM.df),]
 lasso.GMM.df$MGS <- NULL
+write.table(lasso.GMM.df, 'lipidomics_GMM.txt', sep='\t')
 
 lasso.GMM.df.taxa2 <- lasso.GMM.df.taxa$MGS
 names(lasso.GMM.df.taxa2) <- row.names(lasso.GMM.df.taxa) 
@@ -682,6 +686,7 @@ lasso.metaG.lip.df <- do.call(rbind.data.frame, lasso.metaG.lip)
 lasso.metaG.lip.df$fdr <- p.adjust(lasso.metaG.lip.df$pval, method = 'fdr')
 lasso.metaG.lip.df.taxa <- lasso.metaG.lip.df[complete.cases(lasso.metaG.lip.df),]
 lasso.metaG.lip.df$MGS <- NULL
+write.table(lasso.metaG.lip.df, 'lipidomicsCLUSTERS_QMP.txt', sep='\t')
 
 lasso.metaG.lip.df.taxa2 <- lasso.metaG.lip.df.taxa$MGS
 names(lasso.metaG.lip.df.taxa2) <- row.names(lasso.metaG.lip.df.taxa) 
@@ -722,6 +727,7 @@ lasso.GMM.df <- do.call(rbind.data.frame, lasso.GMM)
 lasso.GMM.df$fdr <- p.adjust(lasso.GMM.df$pval, method = 'fdr')
 lasso.GMM.df.taxa <- lasso.GMM.df[complete.cases(lasso.GMM.df),]
 lasso.GMM.df$MGS <- NULL
+write.table(lasso.GMM.df, 'lipidomicsCLUSTERS_GMM.txt', sep='\t')
 
 lasso.GMM.df.taxa2 <- lasso.GMM.df.taxa$MGS
 names(lasso.GMM.df.taxa2) <- row.names(lasso.GMM.df.taxa) 
@@ -953,4 +959,206 @@ GMM.lipids.c.relation$gmm.annot <- sapply(GMM.lipids.c.relation$gmm, function(a)
 rev(sort(table(GMM.lipids.c.relation$gmm.annot)))
 length(sort(table(GMM.lipids.c.relation$gmm.annot)))
 
+## which metabolites are shared between being produced by bacteria and differential between groups? ----
+# polar
+polar <- read.table('CTLvsT1D_univariatePolarMetabolites.txt', header = T, sep ='\t')
+polar.plot <- polar %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta', 'variance.explained.by.QMP', 'variance.explained.by.GMM')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('cliff.delta' = cliff.delta*-1) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('cliff.delta' = "Cliff's Delta effect size", 
+         'variance.explained.by.QMP' = "Variance explained\nby QMPs", 
+         'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>% 
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+    geom_tile(colour="white",size=0.2) +
+    scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkred') +
+    theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+    labs(x = NULL, y = 'Polar metabolite', fill = "Cliff's Delta\neffect size")
+
+polar.cliff <- polar %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('cliff.delta' = cliff.delta*-1) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('cliff.delta' = "Cliff's Delta\neffect size") %>% 
+         # 'variance.explained.by.QMP' = "Variance explained\nby QMPs",
+         # 'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>%
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkred') +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Polar metabolite', fill = "Cliff's Delta\neffect size")
+  
+polar.AUC <- polar %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'AUC', 'cliff.delta')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>%
+  rename('AUC' = "Area Under\nthe Curve") %>% 
+  select(-c('cliff.delta')) %>% 
+  # 'variance.explained.by.QMP' = "Variance explained\nby QMPs",
+  # 'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>%
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'black', mid = 'white', high = 'black', midpoint = 0.5) +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Polar metabolite', fill = "Area Under\nthe Curve")
+
+polar.microbiome <- polar %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta', 'variance.explained.by.QMP', 'variance.explained.by.GMM')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('variance.explained.by.QMP' = "Variance explained\nby QMPs", 
+         'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>% 
+  select(-c('cliff.delta')) %>% 
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkorchid') +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Polar metabolite', fill = "Variance\nexplained")
+
+pdf('polarmetabolitesT1DvsCTLandbacterialorigins.pdf', width = 11, height = 9)
+cowplot::plot_grid(polar.cliff, polar.AUC, polar.microbiome, ncol = 3, 
+                   rel_widths = c(.95, .95, 1), rel_heights = c(1, 1, 1.5), align = 'v', axis = 'bt')
+dev.off()
+
+lipids <- read.table('CTLvsT1D_univariatelipidomics.txt', header = T, sep ='\t')
+lipids %>% 
+  filter(FDR<=.1&abs(cliff.delta)>=.4) %>% 
+  select(c('Metabolite', 'cliff.delta', 'variance.explained.by.QMP', 'variance.explained.by.GMM')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('cliff.delta' = cliff.delta*-1) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('cliff.delta' = "Cliff's Delta\neffect size", 
+         'variance.explained.by.QMP' = "Variance\nexplained\nby QMPs", 
+         'variance.explained.by.GMM' = "Variance\nexplained\nby GMMs") %>% 
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkred') +
+  theme_bw()
+
+lipid.clusters <- read.table('CTLvsT1D_univariatelipidomicsCLUSTERS.txt', header = T, sep ='\t')
+lipid.c.plot <- lipid.clusters %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta', 'variance.explained.by.QMP', 'variance.explained.by.GMM')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('cliff.delta' = cliff.delta*-1) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('cliff.delta' = "Cliff's Delta\neffect size", 
+         'variance.explained.by.QMP' = "Variance explained\nby QMPs", 
+         'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>% 
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkred') +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Lipid clusters', fill = "Cliff's Delta\neffect size")
+
+lipid.c.cliff <- lipid.clusters %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('cliff.delta' = cliff.delta*-1) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('cliff.delta' = "Cliff's Delta\neffect size") %>% 
+  # 'variance.explained.by.QMP' = "Variance explained\nby QMPs",
+  # 'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>%
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkred') +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Lipid cluster', fill = "Cliff's Delta\neffect size")
+
+lipid.c.AUC <- lipid.clusters %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'AUC', 'cliff.delta')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>%
+  rename('AUC' = "Area Under\nthe Curve") %>% 
+  select(-c('cliff.delta')) %>% 
+  # 'variance.explained.by.QMP' = "Variance explained\nby QMPs",
+  # 'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>%
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'black', mid = 'white', high = 'black', midpoint = 0.5) +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Lipid cluster', fill = "Area Under\nthe Curve")
+
+lipid.c.microbiome <- lipid.clusters %>% 
+  filter(FDR<=.1) %>% 
+  select(c('Metabolite', 'cliff.delta', 'variance.explained.by.QMP', 'variance.explained.by.GMM')) %>% 
+  arrange(cliff.delta) %>% 
+  mutate('Metabolite' = factor(Metabolite, levels = rev(Metabolite))) %>% 
+  rename('variance.explained.by.QMP' = "Variance explained\nby QMPs", 
+         'variance.explained.by.GMM' = "Variance explained\nby GMMs") %>% 
+  select(-c('cliff.delta')) %>% 
+  reshape2::melt() %>% 
+  ggplot(aes(variable, Metabolite, fill = value)) + 
+  geom_tile(colour="white",size=0.2) +
+  scale_fill_gradient2(low = 'darkolivegreen3', mid = 'white', high = 'darkorchid') +
+  theme_bw() + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5)) +
+  labs(x = NULL, y = 'Lipid cluster', fill = "Variance\nexplained")
+
+pdf('lipidclustersT1DvsCTLandbacterialorigins.pdf', width = 15, height = 10)
+cowplot::plot_grid(lipid.c.cliff, lipid.c.AUC, lipid.c.microbiome, ncol = 3, 
+                   rel_widths = c(.95, .95, 1), rel_heights = c(1, 1, 1.5), align = 'v', axis = 'bt')
+dev.off()
+
+## relevant metabolites
+load('metabolitOrigins.RData')
+gmm.annot <- read.table('GMMs.v1.07.names', sep='\t')
+lipids.annot <- data.table::fread('lipidclusters_annotation.txt', header = T, sep ='\t', select = c(1:3))
+lipids.annot$name <- make.unique(lipids.annot$name)
+lipids.annot$cluster <- paste0('ME', lipids.annot$cluster)
+
+metaG.mets.relation
+
+selected.polar <- polar[polar$FDR<=.1, ]$Metabolite
+selected.polar <- metaG.mets.relation[make.names(metaG.mets.relation$met)%in%selected.polar,]
+selected.polar$annotation <- sapply(selected.polar$mgs, function(z){
+  tax[which(tax$X==z),]$Name
+})
+
+modules <- GMM.mets.relation[make.names(GMM.mets.relation$met)%in%polar[polar$FDR<=.1, ]$Metabolite,]
+modules$annotation <- sapply(modules$gmm, function(z){
+  gmm.annot[which(gmm.annot$V1==z),]$V2
+})
+names(modules) <- names(selected.polar)
+selected.polar <- rbind(selected.polar, modules)
+names(selected.polar) <- c('feature', 'metabolite', 'annotation')
+selected.polar$feat.type <- ifelse(grepl('MGS',selected.polar$feature), 'QMP', 'GMM')
+write.table(selected.polar, 'polarmetabolites_differential_bacterial.txt', sep = '\t')
+
+selected.lipids.c <- lipid.clusters[lipid.clusters$FDR<=.1, ]$Metabolite
+metaG.lipids.c.relation$met <- sapply(metaG.lipids.c.relation$met, function(z){
+  lipids.annot[which(lipids.annot$cluster==z),]$name
+})
+selected.lipids.c <- metaG.lipids.c.relation[metaG.lipids.c.relation$met%in%selected.lipids.c,]
+selected.lipids.c$annotation <- sapply(selected.lipids.c$qmp, function(z){
+  tax[which(tax$X==z),]$Name
+})
+
+GMM.lipids.c.relation$met <- sapply(GMM.lipids.c.relation$met, function(z){
+  lipids.annot[which(lipids.annot$cluster==z),]$name
+})
+modules <- GMM.lipids.c.relation[GMM.lipids.c.relation$met%in% lipid.clusters[lipid.clusters$FDR<=.1, ]$Metabolite,]
+modules$annotation <- sapply(modules$gmm, function(z){
+  gmm.annot[which(gmm.annot$V1==z),]$V2
+})
+names(modules) <- names(selected.lipids.c)
+selected.lipids.c <- rbind(selected.lipids.c, modules)
+names(selected.lipids.c) <- c('feature', 'metabolite', 'annotation')
+selected.lipids.c$feat.type <- ifelse(grepl('MGS',selected.lipids.c$feature), 'QMP', 'GMM')
+write.table(selected.lipids.c, 'lipidclusters_differential_bacterial.txt', sep = '\t')
 

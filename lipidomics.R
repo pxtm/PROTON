@@ -27,8 +27,8 @@ source('lm_function.R')
 
 ## data
 mtdt <- readRDS('mtdt_common.rds')
-# lipids.res <- readRDS('residuals_lipids_egfr.rds')
-lipids.res <- readRDS('lipids_clusters.rds')
+lipids.res <- readRDS('residuals_lipids_egfr.rds')
+# lipids.res <- readRDS('lipids_clusters.rds')
 row.names(mtdt) == row.names(lipids.res)
 
 lipids.annot <- data.table::fread('lipidclusters_annotation.txt', header = T, sep ='\t', select = c(1:3))
@@ -146,19 +146,19 @@ lipids.res.ctrl <- lipids.res[lipids.res$T1D == 'Controls',]
 lipids.res.t1d <- lipids.res[lipids.res$T1D == 'T1D',]
 
 lipids.res$T1D
-# eff.size <- sapply(lipids.res[,1:7470], function(x){
-#   cliff.delta(x, lipids.res$T1D, data = lipids.res)$estimate
-# })
-eff.size <- sapply(lipids.res[,1:122], function(x){
+eff.size <- sapply(lipids.res[,1:7470], function(x){
   cliff.delta(x, lipids.res$T1D, data = lipids.res)$estimate
 })
-
-# p.vals <- sapply(lipids.res[,1:7470], function(x){
-#   t.test(x~T1D, data = lipids.res)$p.val
+# eff.size <- sapply(lipids.res[,1:122], function(x){
+#   cliff.delta(x, lipids.res$T1D, data = lipids.res)$estimate
 # })
-p.vals <- sapply(lipids.res[,1:122], function(x){
+
+p.vals <- sapply(lipids.res[,1:7470], function(x){
   t.test(x~T1D, data = lipids.res)$p.val
 })
+# p.vals <- sapply(lipids.res[,1:122], function(x){
+#   t.test(x~T1D, data = lipids.res)$p.val
+# })
 
 volcano.ctl.t1d <- data.frame('Effect.size' = eff.size, 
                               'p.values' = p.vals, 'fdr' = p.adjust(p.vals, method = 'fdr'))
@@ -191,14 +191,14 @@ lipids.res$T1D.num <- plyr::revalue(lipids.res$T1D, replace = c('Controls' = 0, 
 met.aucs <- c()
 low.aucs <- c()
 high.aucs <- c()
-for (i in names(lipids.res)[1:122]){
+for (i in names(lipids.res)[1:7470]){
   opt.test <- optimal.cutpoints(X = i, status= 'T1D.num', data = lipids.res, methods = c('ValueSe', 'ValueSp', 'Youden', 'MaxDOR', 'ValueNPV', 'ValuePPV'), tag.healthy = 0)
   met.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[1]
   low.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[2]
   high.aucs[i] <- opt.test$ValueSe$Global$measures.acc$AUC[3]
 }
 
-names(met.aucs) <- names(lipids.res)[1:122]
+names(met.aucs) <- names(lipids.res)[1:7470]
 names(met.aucs) == names(p.vals)
 
 met.aucs <- data.frame('Metabolite' = names(met.aucs), 'AUC' = met.aucs, 'Low.AUC' = low.aucs, 'High.AUC' = high.aucs, 'p-value' = p.vals, 'FDR' = p.adjust(p.vals, method = 'fdr'))
