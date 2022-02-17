@@ -9,9 +9,6 @@
 ## libraries
 library(MOFA2); library(compositions)
 
-## set reticulate
-reticulate::use_condaenv(condaenv = "mofa2", conda = "/Users/pmc959/opt/anaconda3/condabin/conda", required = TRUE)
-
 ## data
 qmp <- readRDS('qmp.rds')
 qmp <- as.data.frame(t(qmp)); qmp.names <- row.names(qmp)
