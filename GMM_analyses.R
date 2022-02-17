@@ -29,7 +29,7 @@ mtdt.red$sample <- paste0('s', row.names(mtdt.red))
 row.names(gmm) == mtdt.red$sample
 gmm <- gmm[match(mtdt.red$sample, row.names(gmm)),]
 
-## diversity
+## beta-diversity
 gmm <- gmm[,sort(names(gmm))]
 gmm.annotation <- gmm.annotation[gmm.annotation$V1%in%names(gmm),]
 gmm.annotation$V1 == names(gmm)
@@ -47,7 +47,7 @@ p1 <- ggplot(gmm.pcoa.scores, aes(Axis.1, Axis.2, color = mtdt.red$Groups)) +
   labs(x = 'Principal coordinate 1 (expl. var. 34.50%)', y = 'Principal coordinate 2 (expl. var. 21.16%)',
        color = 'Clinical\ngroup')
 
-ggExtra::ggMarginal(
+ggExtra::ggMarginal(    ## add distributions at opposite axis sides
   p = p1,
   type = 'density',
   margins = 'both',
@@ -56,17 +56,19 @@ ggExtra::ggMarginal(
   groupFill = TRUE
 )
 
+# compute GMM mean abundance
 row.names(gmm) == mtdt.red$sample
 gmm.mean <- gmm %>% 
   add_column('group' = mtdt.red$Groups) %>% 
   group_by(group) %>% 
   summarise(across(where(is.numeric), mean))
 
+## plot mean GMM abundances as a heatmap
 gmm.mean <- as.data.frame(t(gmm.mean))  
 names(gmm.mean) <- gmm.mean[1,]
 gmm.mean <- gmm.mean[-1,]
 gmm.mean.m <- melt(t(gmm.mean))
-gmm.mean.m$Var1 <- factor(gmm.mean.m$Var1, levels = c('Controls', 'Normo', 'Micro', 'Macro'))
+gmm.mean.m$Var1 <- factor(gmm.mean.m$Var1, levels = c('Controls', 'Normo', 'Micro', 'Macro')) # keep order
 gmm.mean.m$value <- as.numeric(gmm.mean.m$value)
 
 ggplot(gmm.mean.m, aes(Var1, Var2, fill = value)) +
